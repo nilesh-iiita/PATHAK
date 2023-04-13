@@ -1,0 +1,793 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">2985121R</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">4559</journal-id>
+      <journal-id journal-id-type="nlm-ta">J Biol Chem</journal-id>
+      <journal-id journal-id-type="iso-abbrev">J. Biol. Chem.</journal-id>
+      <journal-title-group>
+        <journal-title>The Journal of biological chemistry</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0021-9258</issn>
+      <issn pub-type="epub">1083-351X</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">16267047</article-id>
+      <article-id pub-id-type="pmc">1459476</article-id>
+      <article-id pub-id-type="doi">10.1074/jbc.M511148200</article-id>
+      <article-id pub-id-type="manuscript">UKMS7770</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Two Isoforms of a Divalent Metal Transporter (DMT1) in <italic>Schistosoma mansoni</italic> Suggest a Surface-associated Pathway for Iron Absorption in Schistosomes<xref ref-type="fn" rid="FN1">*</xref></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Smyth</surname>
+            <given-names>Danielle J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">‡</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Glanfield</surname>
+            <given-names>Amber</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">‡</xref>
+          <xref ref-type="aff" rid="A2">§</xref>
+          <xref ref-type="author-notes" rid="FN2">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>McManus</surname>
+            <given-names>Donald P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">‡</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hacker</surname>
+            <given-names>Elke</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">‡</xref>
+          <xref ref-type="author-notes" rid="FN3">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Blair</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">∥</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Anderson</surname>
+            <given-names>Greg J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">‡</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jones</surname>
+            <given-names>Malcolm K.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">‡</xref>
+          <xref ref-type="aff" rid="A3">¶</xref>
+          <xref ref-type="author-notes" rid="FN4">3</xref>
+        </contrib>
+        <aff id="A1"><label>‡</label>Queensland Institute of Medical Research, 300 Herston Road, Herston, Brisbane, 4029, Queensland, Australia</aff>
+        <aff id="A2"><label>§</label>Australian Centre for International and Tropical Health and Nutrition, School of Population Health, The University of Queensland, Queensland 4072 Australia</aff>
+        <aff id="A3"><label>¶</label>School of Molecular and Microbial Sciences, The University of Queensland, Queensland 4072 Australia</aff>
+        <aff id="A4"><label>∥</label>School of Tropical Biology, James Cook University, Townsville, Queensland 4811, Australia</aff>
+      </contrib-group>
+      <author-notes>
+        <fn id="FN2" fn-type="supported-by">
+          <label>1</label>
+          <p id="P1">Supported by a scholarship from The University of Queensland.</p>
+        </fn>
+        <fn id="FN3" fn-type="supported-by">
+          <label>2</label>
+          <p id="P2">Supported by a Queensland Institute of Medical Research Student Scholarship.</p>
+        </fn>
+        <corresp id="FN4"><label>3</label>To whom correspondence should be addressed: Queensland Institute of Medical Research, PO Royal Brisbane Hospital, Herston, Brisbane, 4029, Queensland, Australia. Tel.: 617-33620406; Fax: 617-33620104; E-mail: <email xlink:type="simple">malcolm.jones@qimr.edu.au</email>.</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>26</day>
+        <month>1</month>
+        <year>2006</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>02</day>
+        <month>11</month>
+        <year>2005</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <day>27</day>
+        <month>1</month>
+        <year>2006</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>11</day>
+        <month>5</month>
+        <year>2006</year>
+      </pub-date>
+      <volume>281</volume>
+      <issue>4</issue>
+      <fpage>2242</fpage>
+      <lpage>2248</lpage>
+      <permissions>
+        <license>
+          <license-p>This file is available to download for the purposes of text mining, consistent with the principles of UK copyright law.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P4">We describe two homologues of the mammalian divalent metal transporter (DMT1) for <italic>Schistosoma mansoni</italic>, a pathogenic intravascular parasite of humans. Schistosomes have a high nutritional and metabolic demand for iron. Nucleotide sequences of the parasite homologues, designated SmDMT1A and -B, are identical in all but the 5′-regions. The predicted amino acid sequences share at least 60% identity with DMT1 (=Nramp2) of humans, mice, and rats, and at least 55% identity with Nramp1 from mice, humans and <italic>Caenorhabditis elegans</italic>. SmDMT1A is expressed in differentiating eggs, miracidia, cercariae, schistosomula, and adults, whereas SmDMT1B is expressed in all but the miracidium and occurs at lower levels than SmDMT1A in differentiating eggs and cercariae. An iron-responsive element, present at the 3′-untranslated region of many DMT1 molecules, is not present in schistosome mRNAs studied here. A Western blot analysis of adult worm preparations using a homologous rabbit serum raised against a schistosome DMT1 peptide and a heterologous serum raised against mammalian DMT1, revealed a band approximating 115 kDa. By immunofluorescence microscopy, the schistosome DMT1s localize primarily to the tegument. Iron uptake assays demonstrated that SmDMT1s were able to rescue yeast growth in ferrous iron-transport deficient yeast (<italic>fet3fet4</italic>). The results suggest that schistosomes express molecules for ferrous iron transport in their tegument, suggesting trans-tegumental transport as one means of iron acquisition for these parasites.</p>
+      </abstract>
+      <funding-group>
+        <award-group>
+          <funding-source country="United Kingdom">Wellcome Trust : </funding-source>
+          <award-id>071657 || WT</award-id>
+        </award-group>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P5">Schistosomes are platyhelminth parasites of humans, responsible for significant disease in many tropical countries. Adult schistosomes inhabit the portal blood system of their hosts, where they feed extensively on the hemoglobin from host erythrocytes as the primary protein source. Female schistosomes have been recorded to imbibe up to 330,000 erythrocytes/h, equivalent to a daily intake of 0.88 μl of blood, whereas males imbibe only 39,000 cells/h (<xref ref-type="bibr" rid="R1">1</xref>).</p>
+    <p id="P6">Erythrocytes are digested within the gastrodermis by a series of extracellular cytolytic and specific proteolytic enzymes that catabolize hemoglobin to dipeptides or free amino acids for absorption by the gastrodermal syncytium (<xref ref-type="bibr" rid="R1">1</xref>-<xref ref-type="bibr" rid="R3">3</xref>). Hemoglobin is a rich source of amino acids, but heme, its catabolic by product, is potentially toxic to the parasites and is polymerized into hematin prior to egestion. The heme-bound iron, which accounts for much of the iron present in schistosome tissues, is thus egested from the body of the worms without absorption into somatic tissues.</p>
+    <p id="P7">Iron is a trace element, essential in a wide variety of metabolic activities including immunological resistance, oxidative metabolism, and biomineralization (<xref ref-type="bibr" rid="R4">4</xref>, <xref ref-type="bibr" rid="R5">5</xref>). A surplus of iron in organisms has potentially lethal effects (<xref ref-type="bibr" rid="R6">6</xref>), because the element can induce the formation of toxic hydroxyl radicals that damage lipid membranes, proteins, and DNA (<xref ref-type="bibr" rid="R7">7</xref>-<xref ref-type="bibr" rid="R9">9</xref>). Schistosome tissues are iron-rich, and much of this abundance can be attributed to heme and heme polymers present in the gastrodermal lumen as by-products of hemoglobin digestion. In addition to this gut store, female schistosomes express a vitelline cell-specific ferritin molecule, which presumably provides iron for embryogenesis (<xref ref-type="bibr" rid="R10">10</xref>).</p>
+    <p id="P8">In mammals, ferrous ions are absorbed across the intestinal brush border by a divalent metal transporter (DMT1),<xref ref-type="fn" rid="FN5">4</xref> a member of the highly conserved Nramp (natural resistance-associated macrophage protein) family (<xref ref-type="bibr" rid="R11">11</xref>). Nramp proteins have a wide range of functions in eukaryotes but are primarily involved in trans-membrane transport of divalent metals. DMT1 is an integral membrane transporter containing 10-12 transmembrane domains (<xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R11">11</xref>) and can accept a broad range of transition metal ions, among which Fe<sup>2+</sup> is transported with high affinity (<xref ref-type="bibr" rid="R11">11</xref>, <xref ref-type="bibr" rid="R12">12</xref>).</p>
+    <p id="P9">We hypothesized that because schistosomes have large tissue stores of iron (<xref ref-type="bibr" rid="R13">13</xref>) and live in an iron-rich environment, it was probable that the parasites have pathways for iron acquisition from the bloodstream. Moreover, because Nramp proteins are ubiquitous and highly conserved, we reasoned that a DMT1 homologue is present in these parasites. This paper describes the identification and preliminary characterization of two schistosome DMT1 molecules from <italic>Schistosoma mansoni</italic>.</p>
+    <sec sec-type="methods" id="S2">
+      <title>EXPERIMENTAL PROCEDURES</title>
+      <p id="P10"><italic>Parasites</italic>—Adult <italic>S. mansoni</italic> (Puerto Rican strain, both sexes) worms were perfused from BALB/c mice 7-10 weeks after subcutaneous challenge with cercariae and washed thoroughly in phosphate-buffered saline (PBS). Schistosome eggs were isolated from mouse livers (<xref ref-type="bibr" rid="R14">14</xref>), and miracidia were hatched in non-chlorinated water from finely diced mouse livers. Cercariae, collected from infected <italic>Biomphalaria glabrata</italic> snails, were kindly provided by Dr. Fred Lewis (Biomedical Research Institute, Rockville, MD).</p>
+      <p id="P11"><italic>Degenerate PCR</italic>—Degenerate primers were designed from consensus regions identified by alignment of <italic>Caenorhabditis elegans</italic> (NM_076730), <italic>Mus musculus</italic> (L33415), <italic>Drosophila melanogaster</italic> (AY058543), and <italic>Homo sapiens</italic> (AF046997) DMT1 nucleotide sequences. A nested PCR strategy was employed to amplify schistosome cDNA. The first reaction used a previously constructed <italic>S. mansoni</italic> adult λ-ZAP cDNA library as template and degenerate primers P23F 5′-ATGWSCATWGCSTAYYTRGAYCCHGGHAAYAT and P1274R 5′-AGDBCSVRWGCARBCARVCA in conditions specified for use with Amplitaq DNA polymerase (Applied Biosystems, Foster City, CA). The second PCR was performed using 1 μl of PCR product as template and the nested degenerate primers P250F 5′-GCYGWDCCRATRACYTCYKGCAT and P600R 5′-GACTTRACYAARGCDGAATGCA. PCR parameters were as follows: 95 °C of denaturation for 1 min, 50-65 °C of primer annealing for 1 min (melting temperature dependant on primers pairs used), 72 °C of primer extension for 3 min, and cycle for 30 cycles. A final extension of 7 min was performed at 72 °C before storing the samples at 4 °C. PCR products were gel extracted using the QIA-quick® gel extraction and purification kit and cloned into TOPO TA cloning vector pCR4-TOPO (Invitrogen), and the DNA insert was sequenced. Sequences were compared with those in the GenBank (nr) and dbEST databases using the National Centre for Biotechnology Information (NCBI) Blast program. Gene-specific primers were designed from the resultant sequence and full-length SmDMT1-A and -B sequences were obtained using cDNA generated by the GeneRacer Kit (Invitrogen).</p>
+      <p id="P12"><italic>Molecular Phylogeny</italic>—To demonstrate the similarities among related Nramp sequences from a diversity of organisms, a phylogenetic tree was constructed from inferred amino acid sequences. A variety of vertebrate Nramp1 and Nramp2 sequences were selected for inclusion, as well as sequences from several invertebrates (NCBI accession numbers are listed in <xref ref-type="fig" rid="F1">Fig. 1B</xref>). No full-length Nramp sequences are available from any species of parasitic or free-living platyhelminth, other than <italic>S. mansoni</italic>. However, the trace archive at NCBI contains data from a whole genome shotgun sequencing project for the free-living triclad planarian <italic>Schmidtea mediterranea</italic>. This archive was searched, using as the query nucleotide sequences from the most conserved portions of the <italic>Nramp</italic> genes of <italic>S. mansoni</italic>. Several exons of the triclad homolog were thus identified. By extending the search in 5′- and 3′-directions, most of the triclad gene was eventually obtained. The entire genomic sequence for the gene was not obtained because of the presence of very long introns.</p>
+      <p id="P13">ClustalW (<xref ref-type="bibr" rid="R15">15</xref>) was used to align the sequences. Only sites for which data were available for <italic>S. mediterranea</italic> (374 sites) were included in the analyses. All sites in which an alignment gap occurred in any sequence were omitted from the analysis. Trees were constructed in MEGAv3.0 (<xref ref-type="bibr" rid="R16">16</xref>) using the minimum evolution method. The substitution model for the tree shown in <xref ref-type="fig" rid="F1">Fig. 1B</xref> was the JTT model. Uniform rates among sites were assumed. The dataset was bootstrapped 1000 times, and resulting values shown on branches of the tree. The tree is midpoint-rooted.</p>
+      <p id="P14"><italic>Stage-specific Expression of SmDMT1-A and -B</italic>—Expression of SmDMT1-A and -B (<italic>S. mansoni</italic> divalent metal transporter 1 A and B) transcripts in key life cycle stages (male and female adult worms, eggs, cercariae, and miracidia) of the parasite was determined by RT-PCR. Total RNA was extracted from each of the life cycle stages of the parasite using TRIzol reagent (Invitrogen) in accordance with the manufacturer's instructions. Single stranded cDNA was generated by priming 1 μg of total RNA with 500 ng of oligo(dt)12-18 random primers (Boehringer, Mannheim) with Superscript II reverse transcriptase (Invitrogen). Control reactions (without the addition of reverse transcriptase) were included to monitor for contamination with genomic DNA and primers targeting a 291-bp region of the <italic>S. mansoni</italic> gene encoding triosephosphate isomerase were used to amplify constitutively expressed positive control cDNA (<xref ref-type="bibr" rid="R17">17</xref>). Specific forward primers for SmDMT1A (5′-ATGCATGTCTGTTTAGATGGAGAGGAAAACGAGGGCAG′) and SmDMT1B (5′-CCACCCTATCGTAATAACATCTTCAGATCATATATATTG) were used with the same reverse primer (5′-CAAAATAGTAATAAGTACACCAGCCCATAA) to amplify 555-bp and 435-bp target fragments, respectively. PCRs were performed on single stranded cDNA as follows: hot start at 94 °C for 2 min followed by 30 cycles of 94 °C for 1 min; 55 °C for 1 min and 72 °C for 1 min. The products were resolved on a 1.5% agarose gel and stained with ethidium bromide.</p>
+      <p id="P15"><italic>Antisera</italic>—A rabbit antiserum was raised against a synthetic peptide (CTREGKIPVR) corresponding to a region of the fourth extracellular loop of schistosome DMT1 (see <xref ref-type="fig" rid="F2">Fig. 2</xref>) and synthesized as a KLH-fusion protein (Sigma Genosys). Prior to use, anti-KLH antibodies were removed from the serum by affinity purification. For this, the serum was passed through KLH-loaded HiTrap-NHS columns (Amersham Biosciences) according to the manufacturer's instructions. Sera were tested prior to use for cross-reactivity by PAGE and Western blot analysis (data not shown). A heterologous rabbit antiserum, raised against a 15-amino-acid peptide corresponding to amino acids 230-243 between transmembrane regions 5 and 6 of the rat DMT1 molecule (<xref ref-type="bibr" rid="R18">18</xref>) was also used for Western blot analysis and immunolocalization.</p>
+      <p id="P16">A membrane extract of adult <italic>S. mansoni</italic> worms was prepared using the cellular labeling and immunoprecipitation kit (Roche Applied Science), according to manufacturer's instruction. Whole parasite extract was prepared by solubilization of worms as described previously (<xref ref-type="bibr" rid="R19">19</xref>) and denaturation by boiling at 100 °C for 10 min in SDS reducing buffer (Bio-Rad). As a positive control for Western blotting using the heterologous serum, a mouse small intestine extract was added to SDS glycine sample buffer but not denatured.</p>
+      <p id="P17">Adult parasite extracts, mouse intestine, and KLH protein (Sigma) were separated by SDS-PAGE, transferred to nitrocellulose membranes, incubated with primary sera diluted at 1:50,000 for SmDMT1-KLH antiserum, 1:5000 for KLH-depleted serum, and 1:1000 for the heterologous serum. Preimmune rabbit sera at equivalent dilutions were used as negative controls. In addition, KLH-reactive fraction of the SmDMT1 sera was used as the control. After incubation with primary sera, the nitrocellulose membranes were washed in 0.05% Triton X-100, 0.1% Tween 20/phosphate-buffered saline and incubated with horseradish peroxidase-conjugated goat anti-rabbit IgG (1:2000, Bio-Rad) to detect bound antibodies.</p>
+      <p id="P18">For immunofluorescence, unfixed adult <italic>S. mansoni</italic> worms were snap-frozen in Cryomatrix (ThermoShandon) for cryostat sectioning. All incubations used 2% skim milk powder in phosphate-buffered saline as incubation buffer. Cryosections were incubated with SmDDNA generated by the GeneRacer Kit MT1 serum (1:20) or with the heterologous antiserum diluted (1:100 in incubation buffer) followed by goat anti-rabbit secondary antibody conjugated to Cy3 fluorophore (Jackson ImmunoResearch Laboratories) (1:500 in incubation buffer). Negative controls were as described for Western blotting (above). Sections were examined and photographed using a Leica DM IRB fluorescence microscope equipped with a Leica DC 500 digital camera.</p>
+      <p id="P19"><italic>Functional Expression of Schistosome DMT1 cDNAs in Yeast</italic>—Both <italic>S. mansoni</italic> DMT1 sequences were cloned into the NotI site of pFL61 vector (gift of Dr. D. Day, University of Western Australia). The ferrous iron transport-deficient yeast strain DEY1453 (<italic>fet3fet4</italic>) (<xref ref-type="bibr" rid="R20">20</xref>) was transformed using lithium acetate-mediated transformation and selected for growth on SD media containing 20 mg ml<sup>-1</sup> glucose and appropriate autotrophic requirements and supplemented with FeCl<sub>3</sub> to promote growth of yeast (<xref ref-type="bibr" rid="R21">21</xref>). Complementation experiments were performed following methods of Eide and colleagues (<xref ref-type="bibr" rid="R22">22</xref>). As positive control, <italic>Arabidopsis thaliana</italic> ferrous iron transporter (AtIRT1), a member of the Nramp family (<xref ref-type="bibr" rid="R23">23</xref>), known from previous yeast complementation assays to be an efficient Fe<sup>2+</sup> transporter (<xref ref-type="bibr" rid="R21">21</xref>), was used. As negative control, yeast was transformed with empty pFL61 vector.</p>
+    </sec>
+    <sec id="S3">
+      <title>RESULTS</title>
+      <p id="P20"><italic>Identification of Two Isoforms of SmDMT1</italic>—Degenerate primers were designed from conserved regions of DMT1 amino acid sequences from <italic>C. elegans, M. musculus, H. sapiens</italic>, and <italic>D. melanogaster</italic> and used to amplify DNA from an adult <italic>S. mansoni</italic> cDNA library. Complete sequence data were obtained from the amplification of 5′- and 3′-ends of <italic>S. mansoni</italic> adult RACE cDNA.</p>
+      <p id="P21">SmDMT1-A is a 2249-bp cDNA containing an open reading frame of 583 amino acids with a predicted <italic>M</italic><sub>r</sub> of 64,130 Da, and SmDMT1-B is a 2084-bp cDNA with a predicted open reading frame of 543 amino acids predicted to encode a 59,730-Da protein. Both cDNAs are identical except for variant N-terminal regions (<xref ref-type="fig" rid="F1">Fig. 1</xref>). The variant region in SmDMT1A consists of 239 bp of unique DNA that is predicted to encode 54 amino acids before the shared sequence begins. The variant region of SmDMT1B is considerably shorter and consists of 81 bp of unique DNA that is predicted to encode 14 amino acids before the shared sequence.</p>
+      <p id="P22"><italic>In Silico Analysis of SmDMT1</italic>—Sequences were compared with those in the GenBank™ and dbEST databases using the National Centre for Biotechnology Information (NCBI) Blast program. The SmDMT1 amino acid sequence shows homology to the Nramp family of functionally related proteins. The members of this family are divalent cation transporters and are defined by a conserved hydrophobic core of 10-12 transmembrane domains. SmDMT1 (excluding the variant 5′-regions) shows strong identity with Nramp2 molecules from human (P49281) 63%, mouse (P49282) 63%, rat (O54902) 63% and <italic>D. melanogaster</italic> (P49283) 58% (<xref ref-type="fig" rid="F2">Fig. 2</xref>). Identity is also shared with Nramp1 from human (P49279) 61%, mouse (P41251) 59%, and <italic>C. elegans</italic> (Q21434) 54% with identity to the yeast SMF1 (P38925) and SMF2 (P38778) proteins and manganese transport proteins from bacteria at 30% (figure not shown). Based on sequence comparison and hydropathy plots, SmDMT1 is predicted to contain 12 transmembrane spanning regions, which is characteristic of this family of proteins.</p>
+      <p id="P23">In mammals, the biosynthetic rates for both transferrin receptor 1 (TfR1) and ferritin are regulated by iron. A highly conserved iron-responsive element (IRE) in the 5′-untranslated portion of the ferritin mRNA and the 3′- UTR of mammalian TfR1/mRNA mediates iron-dependent post-transcriptional control of their expression. The IRE functions by forming a specific stem-loop structure that interacts with a transacting factor in an iron-dependent fashion. This element has been reported in the 3′-UTR of human DMT1 sequences (<xref ref-type="bibr" rid="R12">12</xref>, <xref ref-type="bibr" rid="R24">24</xref>) and follows the 9-nucleotide consensus sequence of 5′-CNNNNNCAGUGN-3′ (<xref ref-type="bibr" rid="R25">25</xref>). The two schistosome transcripts include a conserved polyadenylation signal (AATAAA) 22 nucleotides upstream of the poly(A)<sup>+</sup> tail indicating that the full 3′-UTR has been obtained. Analysis of the 3′-UTR of both SmDMT1 revealed a sequence of 5′-AAAUAAACAGUGN-3′. This shared schistosome sequence was identical in all respects to the IRE consensus sequence except for an adenine that replaces the upstream cytosine, that forms the so-named “C” bulge of the consensus IRE. Because the IRE is absolutely conserved (<xref ref-type="bibr" rid="R25">25</xref>), the schistosome sequence is unlikely to function as a regulatory element. In addition, a program designed to analyze sequences for regulatory RNA elements (<xref ref-type="bibr" rid="R50">50</xref>), including IRE sequence motifs, also failed to recognize any IREs in the 3′ UTR of SmDMT1.</p>
+      <p id="P24">All sequences chosen for inclusion in the phylogenetic tree (<xref ref-type="fig" rid="F1">Fig. 1B</xref>) fall into the “archetype” Nramp group (<xref ref-type="bibr" rid="R16">16</xref>, <xref ref-type="bibr" rid="R26">26</xref>). The flatworm genes clearly fall within this group. The clusters at the top of the tree are vertebrate Nramp1 and Nramp2. Sequences from invertebrates (and plants, yeast, and slime mold) were all very different from each other and from those of vertebrates. Outside the vertebrate clade, almost all bootstrap values were very low indicating poor support for any of the groupings observed (apart from Nramps from the two plant species). An Nramp from the free-living flatworm <italic>S. mediterranea</italic> fell closest to that of the bivalve mollusk in the tree presented here, but analyses using other models of substitution sometimes provided weak support for a sister group relationship with <italic>S. mansoni</italic>. Therefore, despite belonging to the same phylum, <italic>S. mediterranea</italic> and <italic>S. mansoni</italic> do not resemble one another closely in the sequence of the Nramp gene. Neither has the schistosome sequence converged on the vertebrate sequences, thereby providing little support for a postulate of molecular mimicry by the parasite in the case of Nramp.</p>
+      <p id="P25"><italic>Stage-specific Expression of SmDMT1-A and -B</italic>—RT-PCR amplification of the SmDMT1-A and -B mRNA from different life cycle stages of <italic>S. mansoni</italic> showed that SmDMT1-A is transcribed in all the stages evaluated. SmDMT1-B is transcribed in comparable amounts in adult male and female worms, to a much lesser extent in cercariae and egg, and is not expressed in the miracidial stage (<xref ref-type="fig" rid="F3">Fig. 3</xref>).</p>
+      <p id="P26"><italic>PAGE and Western Blotting</italic>—Western blot analysis of adult <italic>S. mansoni</italic> using an antiserum directed against the SmDMT1-KLH fusion peptide recognized a number of bands (<xref ref-type="fig" rid="F4">Fig. 4A</xref>). After KLH-directed antibodies were removed from the serum, the depleted serum recognized a single band of ∼115 kDa (<xref ref-type="fig" rid="F4">Fig. 4A</xref>). An antiserum directed against rat DMT1 also revealed a single diffuse band, representing a protein or aggregate in <italic>S. mansoni</italic> adult worms at ∼115 kDa in size (<xref ref-type="fig" rid="F4">Fig. 4B</xref>). This latter serum was also used to probe mouse small intestine extract, as was a preimmune serum (<xref ref-type="fig" rid="F4">Fig. 4B</xref>). No bands were identified using the preimmune rabbit serum against mouse small intestine, but the anti-ratDMT1 serum identified a smear spanning 85-90 kDa (<xref ref-type="fig" rid="F1">Fig. 1A</xref>). Mouse DMT1 has been reported to range from 65 to 116 kDa (<xref ref-type="bibr" rid="R18">18</xref>, <xref ref-type="bibr" rid="R27">27</xref>-<xref ref-type="bibr" rid="R29">29</xref>), and our results are consistent with these observations.</p>
+      <p id="P27"><italic>Immunolocalization</italic>—Immunofluorescence labeling of adult worm sections with an anti-SmDMT1-KLH fusion protein, the same antiserum from which KLH immunoreactivity had been depleted (anti-SmDMT1), and a heterologous serum raised against rat-DMT1 gave strong positive labeling for the distal cytoplasm of the tegument (<xref ref-type="fig" rid="F5">Fig. 5, A, B, D, and E</xref>). None of these reagents displayed positive immunoreactivity for the gastrodermis of the parasite. The anti-SmDMT1-KLH serum gave a strong positive reaction over the tegument and parenchyma and labeled internal ducts of the parasites (<xref ref-type="fig" rid="F5">Fig. 5E</xref>). Many cross-reactive molecules occur in the parenchyma and excretory ducts of schistosomes but, significantly, not the tegument of adult worms (<xref ref-type="bibr" rid="R30">30</xref>,<xref ref-type="bibr" rid="R31">31</xref>). The KLH-depleted anti-SmDMT1 serum retained positive immunoreactivity for the tegument (<xref ref-type="fig" rid="F5">Fig. 5D</xref>). No reaction was detected in sections labeled with preimmune sera (<xref ref-type="fig" rid="F5">Fig. 5, C and F</xref>) or when primary antiserum was omitted (data not shown).</p>
+      <p id="P28"><italic>Functional Expression in Yeast</italic>—To test whether SmDMT1A and -B could transport Fe<sup>2+</sup>, these molecules and ArIrt1 were cloned into pFL61 and transformed into DEY1453 iron transport mutant yeast. This strain grows poorly on media with low iron concentrations because high (<italic>fet3</italic>) and low (<italic>fet4</italic>) affinity Fe<sup>2+</sup> transport has been disrupted (<xref ref-type="bibr" rid="R22">22</xref>). Yeast transformed with ArIrt1 and SmDMT1A and -B grew better than yeast that contained the empty cloning vector (<xref ref-type="fig" rid="F6">Fig. 6A</xref>) on media either lacking or supplemented with 2 μM FeCl<sub>3.</sub> In liquid SD medium, supplemented with 20 μM FeCl<sub>3,</sub> cells transformed with ArIrt1 and SmDMT1A routinely entered the exponential growth phase earlier than empty vector or SmDMT1B (<xref ref-type="fig" rid="F6">Fig. 6B</xref>). Despite the slower growth of yeast transformed with SmDMT1B, the cells still entered exponential growth earlier than control cells.</p>
+    </sec>
+    <sec id="S4">
+      <title>DISCUSSION</title>
+      <p id="P29">We have shown that homologues of the mammalian DMT1 proteins, which are involved in iron uptake in mammalian cells, also occur in schistosomes. Iron uptake assays demonstrated that SmDMT1s were able to rescue yeast growth in ferrous iron-transport deficient yeast (<italic>fet3fet4</italic>). This is the first description of a DMT1 homologue in a hematophagous helminth parasite. One EST with homology to the 3′-end of SmDMT1 has also been deposited in the <italic>Schistosoma japonicum</italic> data base (<xref ref-type="bibr" rid="R32">32</xref>). The Nramp family of proteins is highly conserved and is expressed in many species, and it is therefore not surprising that members also occur in platyhelminths. Schistosomes have a high demand for iron and are known to bind host transferrin at their surface (<xref ref-type="bibr" rid="R33">33</xref>). Female parasites express a ferritin in vitelline cells presumably as a iron store for embryogenesis (<xref ref-type="bibr" rid="R13">13</xref>, <xref ref-type="bibr" rid="R34">34</xref>). Although much remains to be resolved about iron transport, storage, and utilization in schistosomes, the data of Clemens and Basch (<xref ref-type="bibr" rid="R33">33</xref>) and those presented here suggest two surface-linked pathways for iron absorption, a transferrin-dependent and transferrin-independent pathway.</p>
+      <p id="P30">Two <italic>S. mansoni DMT1</italic> genes were identified in this study. The two sequences differed only in the N-terminal regions and had different expression profiles throughout the life cycle. <italic>SmDMT1A</italic> was expressed in all stages examined, whereas <italic>SmDMT1B</italic> expression appeared strongest in mammal-host-associated stages. The expression profiles thus suggest that the function of <italic>SmDMT1B</italic> is related specifically to parasitism in the mammalian host. Because the only sequence variation between the two isoforms is at the N terminus, a region predicted to be intracellular, it is possible that this variable region targets either transporter to distinct membrane domains with distinct sets of partner or regulatory proteins. Mammalian <italic>DMT1</italic> is organized in the genome with 17 exons, containing alternative 5′- and 3′-exons (<xref ref-type="bibr" rid="R11">11</xref>, <xref ref-type="bibr" rid="R35">35</xref>, <xref ref-type="bibr" rid="R36">36</xref>). The functional significance of this variation, particularly that at the 5′-region is not understood but probably relates to the intracellular localization and regulation of DMT1 isoforms in different tissues (<xref ref-type="bibr" rid="R36">36</xref>).</p>
+      <p id="P31">Alternative 3′-exons in mammalian <italic>DMT1</italic> differ with respect to the presence of an IRE in the untranslated region (<xref ref-type="bibr" rid="R35">35</xref>, <xref ref-type="bibr" rid="R36">36</xref>). DMT1 isoforms of the duodenum, liver, and testes possess an IRE, whereas DMT1 isoforms of other tissues do not (<xref ref-type="bibr" rid="R36">36</xref>). This together with variation in 5′-regions, have led to the postulate that 5′- and 3′-ends of the mRNA may hold important clues for differences in iron response of different tissues (<xref ref-type="bibr" rid="R11">11</xref>). An IRE could not be demonstrated for either SmDMT1A or -B. Because IRE+ and IRE- forms are present in mammals, this observation is not surprising. In addition to this, both IRE+ and IRE- Nramps are variously expressed among different species (<xref ref-type="bibr" rid="R21">21</xref>), and there appears to be no one reason for this variability. Until more is known of the genomic organization of schistosome DMT1 genes, the possibility of an IRE+ 3′-exon in these organisms cannot be excluded.</p>
+      <p id="P32">In this study, immunolocalization of the schistosome DMT1 suggested that at least one of the DMT1 isoforms occurs in the tegument. In view of the strong hemoglobinolytic activity of the gastrodermis (<xref ref-type="bibr" rid="R2">2</xref>) and the abundance of iron-rich molecules in that organ, it might be anticipated that the gastrodermis is the primary site of iron absorption. However, despite one report to the contrary (<xref ref-type="bibr" rid="R37">37</xref>), schistosomes appear incapable of catabolizing heme and polymerize it instead into non-reactive hematin for egestion into the blood stream (<xref ref-type="bibr" rid="R38">38</xref>). It therefore seems unlikely then that iron is absorbed across the gut wall in schistosomes or, if it is, by a molecule other than DMT1. The tegument of schistosomes is in direct contact with the host blood and immune systems (<xref ref-type="bibr" rid="R39">39</xref>,<xref ref-type="bibr" rid="R40">40</xref>), and is involved in active transport of many small nutrients, but is not involved in degradation and ingestion of erythrocytes (<xref ref-type="bibr" rid="R41">41</xref>, <xref ref-type="bibr" rid="R42">42</xref>). If DMT1 does play a role in iron absorption in schistosomes, then a surface-associated molecular pathway to liberate ferric iron from the host plasma transporter transferrin must exist. Other blood-dwelling parasites such as the trypanosomes (<xref ref-type="bibr" rid="R43">43</xref>) and <italic>Plasmodium</italic> (<xref ref-type="bibr" rid="R44">44</xref>) have strategies for receptor-mediated endocytosis of host transferrin. Transferrin receptors have been postulated for schistosomes (<xref ref-type="bibr" rid="R33">33</xref>), and it is possible that these act together with other molecules to provide ferric ions for uptake by SmDMT1.</p>
+      <p id="P33">The two primary sera used for Western blot analysis of native parasite proteins recognized bands corresponding to a size much larger than that predicted for the two protein isoforms. At the present time, we cannot explain this variation, although we noted that mouse DMT1 has been reported to range in size from 65 to 116 kDa (<xref ref-type="bibr" rid="R18">18</xref>, <xref ref-type="bibr" rid="R27">27</xref>-<xref ref-type="bibr" rid="R29">29</xref>), even though the molecular mass is predicted to be 62 kDa (<xref ref-type="bibr" rid="R45">45</xref>). Size differences may likely reflect variation in sample source, preparation, glycosylation, and means of detection (<xref ref-type="bibr" rid="R11">11</xref>, <xref ref-type="bibr" rid="R29">29</xref>).</p>
+      <p id="P34">The ability of schistosomes to survive for years in their mammalian host without exhibiting damage from iron-derived free radicals suggests that, along with the iron storage molecules already observed, these worms possess iron transport and regulation mechanisms critical for continued growth and maintenance. The mechanism of action of the artemisinin derivative artemether, an effective antischistosome compound, is thought to be dependant on its interaction with intraparasitic heme, although the precise mode of action remains controversial (<xref ref-type="bibr" rid="R46">46</xref>-<xref ref-type="bibr" rid="R49">49</xref>). With further identification of novel surface components involved in schistosome iron metabolism, work on new immunodiagnostic methods, potential vaccine candidates, and additional studies exploring the antischistosomal properties of artemether can be undertaken.</p>
+    </sec>
+  </body>
+  <back>
+    <ack id="S5">
+      <title>Acknowledgments</title>
+      <p>We thank Mary Duke for maintaining the schistosome lifecycle. We thank Professor David Day and Joanne Castelli for providing yeast strains and for excellent advice.</p>
+    </ack>
+    <fn-group>
+      <fn id="FN1" fn-type="supported-by">
+        <label>*</label>
+        <p id="P35">This work was supported in part by grants from the National Health and Medical Research Council (NHMRC), Wellcome Trust, and the Australian Research Council. The costs of publication of this article were defrayed in part by the payment of page charges. This article must therefore be hereby marked “advertisement” in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.</p>
+      </fn>
+      <fn id="FN5">
+        <label>4</label>
+        <p id="P36">The abbreviations used are: DMT, divalent metal transporter; RT-PCR, reverse transcription PCR; KLH, keyhole limpet hemocyanin; RACE, rapid amplification of cDNA ends; IRE, iron-responsive element; UTR, untranslated region.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lawrence</surname><given-names>J</given-names></name></person-group>
+<source>J. Parasitol</source>
+<year>1973</year>
+<volume>59</volume>
+<fpage>60</fpage>
+<lpage>63</lpage>
+<pub-id pub-id-type="pmid">4687511</pub-id></element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brindley</surname><given-names>PJ</given-names></name><name><surname>Kalinna</surname><given-names>BH</given-names></name><name><surname>Wong</surname><given-names>JY</given-names></name><name><surname>Bogitsh</surname><given-names>BJ</given-names></name><name><surname>King</surname><given-names>LT</given-names></name><name><surname>Smyth</surname><given-names>DJ</given-names></name><name><surname>Verity</surname><given-names>CK</given-names></name><name><surname>Abbenante</surname><given-names>G</given-names></name><name><surname>Brinkworth</surname><given-names>RI</given-names></name><name><surname>Fairlie</surname><given-names>DP</given-names></name><name><surname>Smythe</surname><given-names>ML</given-names></name><name><surname>Milburn</surname><given-names>PJ</given-names></name><name><surname>Bielefeldt-Ohmann</surname><given-names>H</given-names></name><name><surname>Zheng</surname><given-names>Y</given-names></name><name><surname>McManus</surname><given-names>DP</given-names></name></person-group>
+<source>Mol. Biochem. Parasitol</source>
+<year>2001</year>
+<volume>112</volume>
+<fpage>103</fpage>
+<lpage>112</lpage>
+<pub-id pub-id-type="pmid">11166391</pub-id></element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kasschau</surname><given-names>MR</given-names></name><name><surname>Dresden</surname><given-names>MH</given-names></name></person-group>
+<source>Exp. Parasitol</source>
+<year>1986</year>
+<volume>61</volume>
+<fpage>201</fpage>
+<lpage>209</lpage>
+<pub-id pub-id-type="pmid">3956681</pub-id></element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aisen</surname><given-names>P</given-names></name><name><surname>Enns</surname><given-names>C</given-names></name><name><surname>Wessling-Resnick</surname><given-names>M</given-names></name></person-group>
+<source>Int. J. Biochem. Cell Biol</source>
+<year>2001</year>
+<volume>33</volume>
+<fpage>940</fpage>
+<lpage>959</lpage>
+<pub-id pub-id-type="pmid">11470229</pub-id></element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crichton</surname><given-names>RR</given-names></name><name><surname>Charloteaux-Wauters</surname><given-names>M</given-names></name></person-group>
+<source>Eur. J. Biochem</source>
+<year>1987</year>
+<volume>164</volume>
+<fpage>485</fpage>
+<lpage>506</lpage>
+<pub-id pub-id-type="pmid">3032619</pub-id></element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ponka</surname><given-names>P</given-names></name><name><surname>Beaumont</surname><given-names>C</given-names></name><name><surname>Richardson</surname><given-names>DR</given-names></name></person-group>
+<source>Semin. Hematol</source>
+<year>1998</year>
+<volume>35</volume>
+<fpage>35</fpage>
+<lpage>54</lpage>
+<pub-id pub-id-type="pmid">9460808</pub-id></element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frazer</surname><given-names>D</given-names></name><name><surname>Anderson</surname><given-names>G</given-names></name></person-group>
+<source>Hematology</source>
+<year>2001</year>
+<volume>6</volume>
+<fpage>193</fpage>
+<lpage>203</lpage>
+</element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCord</surname><given-names>JM</given-names></name></person-group>
+<source>Semin. Hematol</source>
+<year>1998</year>
+<volume>35</volume>
+<fpage>5</fpage>
+<lpage>12</lpage>
+<pub-id pub-id-type="pmid">9460805</pub-id></element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Samokyszyn</surname><given-names>VM</given-names></name><name><surname>Thomas</surname><given-names>CE</given-names></name><name><surname>Reif</surname><given-names>DW</given-names></name><name><surname>Saito</surname><given-names>M</given-names></name><name><surname>Aust</surname><given-names>SD</given-names></name></person-group>
+<source>Drug. Metab. Rev</source>
+<year>1988</year>
+<volume>19</volume>
+<fpage>283</fpage>
+<lpage>303</lpage>
+<pub-id pub-id-type="pmid">2852589</pub-id></element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dietzel</surname><given-names>J</given-names></name><name><surname>Hirzmann</surname><given-names>J</given-names></name><name><surname>Presis</surname><given-names>D</given-names></name><name><surname>Symmons</surname><given-names>P</given-names></name><name><surname>Kunz</surname><given-names>W</given-names></name></person-group>
+<source>Mol. Biochem. Parasitol</source>
+<year>1992</year>
+<volume>50</volume>
+<fpage>245</fpage>
+<lpage>254</lpage>
+<pub-id pub-id-type="pmid">1741011</pub-id></element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mims</surname><given-names>MP</given-names></name><name><surname>Prchal</surname><given-names>JT</given-names></name></person-group>
+<source>Hematology</source>
+<year>2005</year>
+<volume>10</volume>
+<fpage>339</fpage>
+<lpage>345</lpage>
+<pub-id pub-id-type="pmid">16085548</pub-id></element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gunshin</surname><given-names>H</given-names></name><name><surname>Mackenzie</surname><given-names>B</given-names></name><name><surname>Berger</surname><given-names>UV</given-names></name><name><surname>Gunshin</surname><given-names>Y</given-names></name><name><surname>Romero</surname><given-names>MF</given-names></name><name><surname>Boron</surname><given-names>WF</given-names></name><name><surname>Nussberger</surname><given-names>S</given-names></name><name><surname>Gollan</surname><given-names>JL</given-names></name><name><surname>Hediger</surname><given-names>MA</given-names></name></person-group>
+<source>Nature</source>
+<year>1997</year>
+<volume>388</volume>
+<fpage>482</fpage>
+<lpage>488</lpage>
+<pub-id pub-id-type="pmid">9242408</pub-id></element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schussler</surname><given-names>P</given-names></name><name><surname>Potters</surname><given-names>E</given-names></name><name><surname>Winnen</surname><given-names>R</given-names></name><name><surname>Bottke</surname><given-names>W</given-names></name><name><surname>Kunz</surname><given-names>W</given-names></name></person-group>
+<source>Mol. Reprod. Dev</source>
+<year>1995</year>
+<volume>41</volume>
+<fpage>325</fpage>
+<lpage>330</lpage>
+<pub-id pub-id-type="pmid">8588931</pub-id></element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dalton</surname><given-names>JP</given-names></name><name><surname>Day</surname><given-names>SR</given-names></name><name><surname>Drew</surname><given-names>AC</given-names></name><name><surname>Brindley</surname><given-names>PJ</given-names></name></person-group>
+<source>Parasitology</source>
+<year>1997</year>
+<volume>115</volume>
+<fpage>29</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">9226954</pub-id></element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thompson</surname><given-names>JD</given-names></name><name><surname>Higgins</surname><given-names>DG</given-names></name><name><surname>Gibson</surname><given-names>TJ</given-names></name></person-group>
+<source>Nucleic Acids Res</source>
+<year>1994</year>
+<volume>22</volume>
+<fpage>4673</fpage>
+<lpage>4680</lpage>
+<pub-id pub-id-type="pmid">7984417</pub-id></element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kumar</surname><given-names>S</given-names></name><name><surname>Tamura</surname><given-names>K</given-names></name><name><surname>Nei</surname><given-names>M</given-names></name></person-group>
+<source>Brief. Bioinf</source>
+<year>2004</year>
+<volume>5</volume>
+<fpage>150</fpage>
+<lpage>163</lpage>
+</element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hooker</surname><given-names>C</given-names></name><name><surname>Brindley</surname><given-names>P</given-names></name></person-group>
+<source>Mol. Biochem. Parasitol</source>
+<year>1996</year>
+<volume>82</volume>
+<fpage>265</fpage>
+<lpage>269</lpage>
+<pub-id pub-id-type="pmid">8946393</pub-id></element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trinder</surname><given-names>D</given-names></name><name><surname>Oates</surname><given-names>PS</given-names></name><name><surname>Thomas</surname><given-names>C</given-names></name><name><surname>Sadleir</surname><given-names>J</given-names></name><name><surname>Morgan</surname><given-names>EH</given-names></name></person-group>
+<source>Gut</source>
+<year>2000</year>
+<volume>46</volume>
+<fpage>270</fpage>
+<lpage>276</lpage>
+<pub-id pub-id-type="pmid">10644324</pub-id></element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>AM</given-names></name><name><surname>Dalton</surname><given-names>JP</given-names></name><name><surname>Clough</surname><given-names>KA</given-names></name><name><surname>Kilbane</surname><given-names>CL</given-names></name><name><surname>Harrop</surname><given-names>SA</given-names></name><name><surname>Hole</surname><given-names>N</given-names></name><name><surname>Brindley</surname><given-names>PJ</given-names></name></person-group>
+<source>Mol. Biochem. Parasitol</source>
+<year>1994</year>
+<volume>67</volume>
+<fpage>11</fpage>
+<lpage>19</lpage>
+<pub-id pub-id-type="pmid">7838171</pub-id></element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eide</surname><given-names>D</given-names></name><name><surname>Broderius</surname><given-names>M</given-names></name><name><surname>Fett</surname><given-names>J</given-names></name><name><surname>Guerinot</surname><given-names>ML</given-names></name></person-group>
+<source>Proc. Natl. Acad. Sci. U. S. A</source>
+<year>1996</year>
+<volume>93</volume>
+<fpage>5624</fpage>
+<lpage>5628</lpage>
+<pub-id pub-id-type="pmid">8643627</pub-id></element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaiser</surname><given-names>BN</given-names></name><name><surname>Moreau</surname><given-names>S</given-names></name><name><surname>Castelli</surname><given-names>J</given-names></name><name><surname>Thomson</surname><given-names>R</given-names></name><name><surname>Lambert</surname><given-names>A</given-names></name><name><surname>Bogliolo</surname><given-names>S</given-names></name><name><surname>Puppo</surname><given-names>A</given-names></name><name><surname>Day</surname><given-names>DA</given-names></name></person-group>
+<source>Plant J</source>
+<year>2003</year>
+<volume>35</volume>
+<fpage>295</fpage>
+<lpage>304</lpage>
+<pub-id pub-id-type="pmid">12887581</pub-id></element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eide</surname><given-names>D</given-names></name><name><surname>Davis-Kaplan</surname><given-names>S</given-names></name><name><surname>Jordan</surname><given-names>I</given-names></name><name><surname>Sipe</surname><given-names>D</given-names></name><name><surname>Kaplan</surname><given-names>J</given-names></name></person-group>
+<source>J. Biol. Chem</source>
+<year>1992</year>
+<volume>267</volume>
+<fpage>20774</fpage>
+<lpage>20781</lpage>
+<pub-id pub-id-type="pmid">1400393</pub-id></element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vert</surname><given-names>G</given-names></name><name><surname>Grotz</surname><given-names>N</given-names></name><name><surname>Dedaldechamp</surname><given-names>F</given-names></name><name><surname>Gaymard</surname><given-names>F</given-names></name><name><surname>Guerinot</surname><given-names>ML</given-names></name><name><surname>Briat</surname><given-names>JF</given-names></name><name><surname>Curie</surname><given-names>C</given-names></name></person-group>
+<source>Plant Cell</source>
+<year>2002</year>
+<volume>14</volume>
+<fpage>1223</fpage>
+<lpage>1233</lpage>
+<pub-id pub-id-type="pmid">12084823</pub-id></element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>PL</given-names></name><name><surname>Gelbart</surname><given-names>T</given-names></name><name><surname>West</surname><given-names>C</given-names></name><name><surname>Halloran</surname><given-names>C</given-names></name><name><surname>Beutler</surname><given-names>E</given-names></name></person-group>
+<source>Blood Cells Mol. Dis</source>
+<year>1998</year>
+<volume>24</volume>
+<fpage>199</fpage>
+<lpage>215</lpage>
+<pub-id pub-id-type="pmid">9642100</pub-id></element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hentze</surname><given-names>MW</given-names></name><name><surname>Caughman</surname><given-names>SW</given-names></name><name><surname>Casey</surname><given-names>JL</given-names></name><name><surname>Koeller</surname><given-names>DM</given-names></name><name><surname>Rouault</surname><given-names>TA</given-names></name><name><surname>Harford</surname><given-names>JB</given-names></name><name><surname>Klausner</surname><given-names>RD</given-names></name></person-group>
+<source>Gene (Amst.)</source>
+<year>1988</year>
+<volume>72</volume>
+<fpage>201</fpage>
+<lpage>208</lpage>
+<pub-id pub-id-type="pmid">3266604</pub-id></element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robledo</surname><given-names>JAF</given-names></name><name><surname>Courville</surname><given-names>P</given-names></name><name><surname>Cellier</surname><given-names>MFM</given-names></name><name><surname>Vasta</surname><given-names>GR</given-names></name></person-group>
+<source>J. Parasitol</source>
+<year>2004</year>
+<volume>90</volume>
+<fpage>1004</fpage>
+<lpage>1014</lpage>
+<pub-id pub-id-type="pmid">15562599</pub-id></element-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roth</surname><given-names>JA</given-names></name><name><surname>Horbinski</surname><given-names>C</given-names></name><name><surname>Feng</surname><given-names>L</given-names></name><name><surname>Dolan</surname><given-names>KG</given-names></name><name><surname>Higgins</surname><given-names>D</given-names></name><name><surname>Garrick</surname><given-names>MD</given-names></name></person-group>
+<source>J. Neurosci</source>
+<year>2000</year>
+<volume>20</volume>
+<fpage>7595</fpage>
+<lpage>7601</lpage>
+<pub-id pub-id-type="pmid">11027219</pub-id></element-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gruenheid</surname><given-names>S</given-names></name><name><surname>Canonne-Hergaux</surname><given-names>F</given-names></name><name><surname>Gauthier</surname><given-names>S</given-names></name><name><surname>Hackam</surname><given-names>DJ</given-names></name><name><surname>Grinstein</surname><given-names>S</given-names></name><name><surname>Gros</surname><given-names>P</given-names></name></person-group>
+<source>J. Exp. Med</source>
+<year>1999</year>
+<volume>189</volume>
+<fpage>831</fpage>
+<lpage>841</lpage>
+<pub-id pub-id-type="pmid">10049947</pub-id></element-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Canonne-Hergaux</surname><given-names>F</given-names></name><name><surname>Gruenheid</surname><given-names>S</given-names></name><name><surname>Ponka</surname><given-names>P</given-names></name><name><surname>Gros</surname><given-names>P</given-names></name></person-group>
+<source>Blood</source>
+<year>1999</year>
+<volume>93</volume>
+<fpage>4406</fpage>
+<lpage>4417</lpage>
+<pub-id pub-id-type="pmid">10361139</pub-id></element-citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thors</surname><given-names>C</given-names></name><name><surname>Linder</surname><given-names>E</given-names></name></person-group>
+<source>J. Histochem. Cytochem</source>
+<year>2003</year>
+<volume>51</volume>
+<fpage>1367</fpage>
+<lpage>1373</lpage>
+<pub-id pub-id-type="pmid">14500704</pub-id></element-citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robijn</surname><given-names>ML</given-names></name><name><surname>Wuhrer</surname><given-names>M</given-names></name><name><surname>Kornelis</surname><given-names>D</given-names></name><name><surname>Deelder</surname><given-names>AM</given-names></name><name><surname>Geyer</surname><given-names>R</given-names></name><name><surname>Hokke</surname><given-names>CH</given-names></name></person-group>
+<source>Parasitology</source>
+<year>2005</year>
+<volume>130</volume>
+<fpage>67</fpage>
+<lpage>77</lpage>
+<pub-id pub-id-type="pmid">15700758</pub-id></element-citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hu</surname><given-names>W</given-names></name><name><surname>Yan</surname><given-names>Q</given-names></name><name><surname>Shen</surname><given-names>DK</given-names></name><name><surname>Liu</surname><given-names>F</given-names></name><name><surname>Zhu</surname><given-names>ZD</given-names></name><name><surname>Song</surname><given-names>HD</given-names></name><name><surname>Xu</surname><given-names>XR</given-names></name><name><surname>Wang</surname><given-names>ZJ</given-names></name><name><surname>Rong</surname><given-names>YP</given-names></name><name><surname>Zeng</surname><given-names>LC</given-names></name><name><surname>Wu</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Wang</surname><given-names>JJ</given-names></name><name><surname>Xu</surname><given-names>XN</given-names></name><name><surname>Wang</surname><given-names>SY</given-names></name><name><surname>Fu</surname><given-names>G</given-names></name><name><surname>Zhang</surname><given-names>XL</given-names></name><name><surname>Wang</surname><given-names>ZQ</given-names></name><name><surname>Brindley</surname><given-names>PJ</given-names></name><name><surname>McManus</surname><given-names>DP</given-names></name><name><surname>Xue</surname><given-names>CL</given-names></name><name><surname>Feng</surname><given-names>Z</given-names></name><name><surname>Chen</surname><given-names>Z</given-names></name><name><surname>Han</surname><given-names>ZG</given-names></name></person-group>
+<source>Nat. Genet</source>
+<year>2003</year>
+<volume>35</volume>
+<fpage>139</fpage>
+<lpage>147</lpage>
+<pub-id pub-id-type="pmid">12973349</pub-id></element-citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clemens</surname><given-names>LE</given-names></name><name><surname>Basch</surname><given-names>PF</given-names></name></person-group>
+<source>J. Parasitol</source>
+<year>1989</year>
+<volume>75</volume>
+<fpage>417</fpage>
+<lpage>421</lpage>
+<pub-id pub-id-type="pmid">2786065</pub-id></element-citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>WoldeMussie</surname><given-names>E</given-names></name><name><surname>Bennett</surname><given-names>JL</given-names></name></person-group>
+<source>J. Parasitol</source>
+<year>1982</year>
+<volume>68</volume>
+<fpage>48</fpage>
+<lpage>52</lpage>
+<pub-id pub-id-type="pmid">7077448</pub-id></element-citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tchernitchko</surname><given-names>D</given-names></name><name><surname>Bourgeois</surname><given-names>M</given-names></name><name><surname>Martin</surname><given-names>M</given-names></name><name><surname>Beaumont</surname><given-names>C</given-names></name></person-group>
+<source>Biochem. J</source>
+<year>2002</year>
+<volume>363</volume>
+<fpage>449</fpage>
+<lpage>455</lpage>
+<pub-id pub-id-type="pmid">11964145</pub-id></element-citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hubert</surname><given-names>N</given-names></name><name><surname>Hentze</surname><given-names>MW</given-names></name></person-group>
+<source>Proc. Natl. Acad. Sci. U. S. A</source>
+<year>2002</year>
+<volume>99</volume>
+<fpage>12345</fpage>
+<lpage>12350</lpage>
+<pub-id pub-id-type="pmid">12209011</pub-id></element-citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>WQ</given-names></name><name><surname>Li</surname><given-names>YL</given-names></name><name><surname>Ruppel</surname><given-names>A</given-names></name></person-group>
+<source>Zhongguo Ji Sheng Chong Xue Yu Ji Sheng Chong Bing Za Zhi</source>
+<year>2001</year>
+<volume>19</volume>
+<fpage>84</fpage>
+<lpage>86</lpage>
+<pub-id pub-id-type="pmid">12571991</pub-id></element-citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kloetzel</surname><given-names>K</given-names></name><name><surname>Lewert</surname><given-names>R</given-names></name></person-group>
+<source>Am. J. Trop. Med. Hyg</source>
+<year>1966</year>
+<volume>15</volume>
+<fpage>28</fpage>
+<lpage>31</lpage>
+<pub-id pub-id-type="pmid">5901627</pub-id></element-citation>
+      </ref>
+      <ref id="R39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gobert</surname><given-names>GN</given-names></name><name><surname>Stenzel</surname><given-names>DJ</given-names></name><name><surname>McManus</surname><given-names>DP</given-names></name><name><surname>Jones</surname><given-names>MK</given-names></name></person-group>
+<source>Int. J. Parasitol</source>
+<year>2003</year>
+<volume>33</volume>
+<fpage>1561</fpage>
+<lpage>1575</lpage>
+<pub-id pub-id-type="pmid">14636672</pub-id></element-citation>
+      </ref>
+      <ref id="R40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>MK</given-names></name><name><surname>Gobert</surname><given-names>GN</given-names></name><name><surname>Zhang</surname><given-names>L</given-names></name><name><surname>Sunderland</surname><given-names>P</given-names></name><name><surname>McManus</surname><given-names>DP</given-names></name></person-group>
+<source>BioEssays</source>
+<year>2004</year>
+<volume>26</volume>
+<fpage>752</fpage>
+<lpage>765</lpage>
+<pub-id pub-id-type="pmid">15221857</pub-id></element-citation>
+      </ref>
+      <ref id="R41">
+        <label>41</label>
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Smyth</surname><given-names>JD</given-names></name><name><surname>Halton</surname><given-names>DW</given-names></name></person-group>
+<source>The Physiology of Trematodes</source>
+<year>1983</year>
+<publisher-name>Cambridge University Press</publisher-name>
+<publisher-loc>Sydney</publisher-loc>
+<edition>2nd Edition</edition>
+</element-citation>
+      </ref>
+      <ref id="R42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shuhua</surname><given-names>X</given-names></name><name><surname>Binggui</surname><given-names>S</given-names></name><name><surname>Chollet</surname><given-names>J</given-names></name><name><surname>Utzinger</surname><given-names>J</given-names></name><name><surname>Tanner</surname><given-names>M</given-names></name></person-group>
+<source>J. Parasitol</source>
+<year>2000</year>
+<volume>86</volume>
+<fpage>1125</fpage>
+<lpage>1132</lpage>
+<pub-id pub-id-type="pmid">11128492</pub-id></element-citation>
+      </ref>
+      <ref id="R43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fast</surname><given-names>B</given-names></name><name><surname>Kremp</surname><given-names>K</given-names></name><name><surname>Boshart</surname><given-names>M</given-names></name><name><surname>Steverding</surname><given-names>D</given-names></name></person-group>
+<source>Biochem. J</source>
+<year>1999</year>
+<volume>342</volume>
+<fpage>691</fpage>
+<lpage>696</lpage>
+<pub-id pub-id-type="pmid">10477281</pub-id></element-citation>
+      </ref>
+      <ref id="R44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodriguez</surname><given-names>MH</given-names></name><name><surname>Jungery</surname><given-names>M</given-names></name></person-group>
+<source>Nature</source>
+<year>1986</year>
+<volume>324</volume>
+<fpage>388</fpage>
+<lpage>391</lpage>
+<pub-id pub-id-type="pmid">3097554</pub-id></element-citation>
+      </ref>
+      <ref id="R45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kishi</surname><given-names>F</given-names></name><name><surname>Tabuchi</surname><given-names>M</given-names></name></person-group>
+<source>Mol. Immunol</source>
+<year>1997</year>
+<volume>34</volume>
+<fpage>839</fpage>
+<lpage>842</lpage>
+<pub-id pub-id-type="pmid">9464519</pub-id></element-citation>
+      </ref>
+      <ref id="R46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meshnick</surname><given-names>SR</given-names></name></person-group>
+<source>Med. Trop. (Mars)</source>
+<year>1998</year>
+<volume>58</volume>
+<fpage>13</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="pmid">10212891</pub-id></element-citation>
+      </ref>
+      <ref id="R47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meshnick</surname><given-names>SR</given-names></name><name><surname>Taylor</surname><given-names>TE</given-names></name><name><surname>Kamchonwongpaisan</surname><given-names>S</given-names></name></person-group>
+<source>Microbiol. Rev</source>
+<year>1996</year>
+<volume>60</volume>
+<fpage>301</fpage>
+<lpage>315</lpage>
+<pub-id pub-id-type="pmid">8801435</pub-id></element-citation>
+      </ref>
+      <ref id="R48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cumming</surname><given-names>JN</given-names></name><name><surname>Ploypradith</surname><given-names>P</given-names></name><name><surname>Posner</surname><given-names>GH</given-names></name></person-group>
+<source>Adv. Pharmacol</source>
+<year>1997</year>
+<volume>37</volume>
+<fpage>253</fpage>
+<lpage>297</lpage>
+<pub-id pub-id-type="pmid">8891104</pub-id></element-citation>
+      </ref>
+      <ref id="R49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>W</given-names></name><name><surname>Mo</surname><given-names>W</given-names></name><name><surname>Shen</surname><given-names>D</given-names></name><name><surname>Sun</surname><given-names>L</given-names></name><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Lu</surname><given-names>S</given-names></name><name><surname>Gitschier</surname><given-names>JM</given-names></name><name><surname>Zhou</surname><given-names>B</given-names></name></person-group>
+<source>PLoS Genet</source>
+<year>2005</year>
+<volume>1</volume>
+<fpage>e36</fpage>
+<pub-id pub-id-type="pmid">16170412</pub-id></element-citation>
+      </ref>
+      <ref id="R50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bengert</surname><given-names>P</given-names></name><name><surname>Dandekar</surname><given-names>T</given-names></name></person-group>
+<source>Nucleic Acids Res</source>
+<year>2003</year>
+<volume>31</volume>
+<fpage>3441</fpage>
+<lpage>3445</lpage>
+<pub-id pub-id-type="pmid">12824342</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" position="float">
+      <label>FIGURE 1</label>
+      <caption>
+        <p><italic>A</italic>, identification of two isoforms of the DMT1 mRNAs in <italic>S. mansoni</italic>. Sequences of the alternative 5′-regions of the <italic>S</italic>. <italic>mansoni</italic> DMT1 mRNA are labeled as <italic>variant region 1A</italic> and <italic>variant region 1B</italic>, respectively. Each molecule possesses a downstream non-variant region. <italic>B</italic>, minimum evolution tree inferred from amino acid sequences of NRAMP genes from flatworms and a variety of other organisms (see text for more details of tree construction). Species names, gene name (where assigned), and published accession numbers are shown for each sequence. Bootstrap values (1000 resamplings) are shown to the left of the relevant nodes. The tree is midpoint-rooted.</p>
+      </caption>
+      <graphic xlink:href="nihms-7770-0001"/>
+    </fig>
+    <fig id="F2" position="float">
+      <label>FIGURE 2</label>
+      <caption>
+        <p><bold>Multiple sequence alignment (ClustalW) of deduced amino acid sequence of <italic>S. mansoni</italic> DMT1-A with Nramp2 sequences of rat (Rat_Nramp2, GenBank™ accession number O54902), human (Human_Nramp2, P49281), and mouse (Mouse_Nramp2, P49282)</bold>. Putative transmembrane reg ions are spanned by a <italic>black line</italic> and labeled TM. <italic>Arrows</italic> denote the position of the peptide sequence used to generate antisera against SmDMT1. The <italic>thin line</italic> over alignment indicates the length of the partial <italic>Nramp</italic> gene from <italic>S. mediterranea</italic> available for phylogenetic analysis.</p>
+      </caption>
+      <graphic xlink:href="nihms-7770-0002"/>
+    </fig>
+    <fig id="F3" position="float">
+      <label>FIGURE 3</label>
+      <caption>
+        <p><bold>RT-PCR analysis of expression patterns of SmDMT1-A and -B in <italic>S. mansoni</italic></bold>. <italic>Lane 1</italic>, adult males; <italic>lane 2</italic>, adult females; <italic>lane 3</italic>, eggs; <italic>lane 4</italic>, miracidia; <italic>lane 5</italic>, cercariae.</p>
+      </caption>
+      <graphic xlink:href="nihms-7770-0003"/>
+    </fig>
+    <fig id="F4" position="float">
+      <label>FIGURE 4</label>
+      <caption>
+        <p><bold>Western blot analysis of <italic>S. mansoni</italic> DMT1</bold>. <italic>A</italic>, an antiserum directed against a SmDMT1 peptide was used to probe membrane extracts of <italic>S. mansoni</italic> adults (<italic>lanes 1</italic> and <italic>3</italic>) and purified KLH (<italic>lanes 2</italic> and <italic>4</italic>). <italic>Lanes 1</italic> and <italic>2</italic> were probed with unpurified SmDMT1-KLH serum, and <italic>lanes 2</italic> and <italic>4</italic> were probed with the same serum after KLH-reactivity was depleted. The depleted serum recognized a single band of ∼115 kDa (<italic>arrow</italic>). Membrane extract probed with normal rabbit serum was used as negative control(<italic>lane 5</italic>). <italic>B</italic>, a heterologous rabbit anti-rat DMT1 serum was used to probe mouse small intestine (<italic>lane 1</italic>) and <italic>S. mansoni</italic> worm (<italic>lane 2</italic>) extracts. <italic>Arrows</italic> highlight the position of bands. Preimmune rabbit serum against mouse small intestine (<italic>lane 3</italic>) was used as a negative control. The sizes of the molecular weight markers are indicated (kDa).</p>
+      </caption>
+      <graphic xlink:href="nihms-7770-0004"/>
+    </fig>
+    <fig id="F5" position="float">
+      <label>FIGURE 5</label>
+      <caption>
+        <p><bold>Immunolocalization of DMT1 in <italic>S. mansoni</italic> adult worms using primary rabbit sera and secondary sera conjugated to Cy3</bold>. <italic>A</italic> and <italic>B</italic>, cryostat sections labeled with rabbit anti-rat DMT1 serum shows strong tegumental (<italic>Teg</italic>) labeling. No labeling was observed over the gastrodermis (<italic>Gas</italic>). <italic>C</italic>, no reaction was detected in sections labeled with corresponding preimmune serum. <italic>D</italic>, tegument reactivity in female worm after localization with anti-SmDMT1 serum after depletion of KLH immunoreactivity. <italic>E</italic>, anti-SmDMT1-KLH serum gives a more intense reaction over tegument and parenchyma. Excretory ducts (<italic>arrowhead</italic>) display positive immunoreactivity with the non-depleted serum. <italic>F</italic>, preimmune serum.</p>
+      </caption>
+      <graphic xlink:href="nihms-7770-0005"/>
+    </fig>
+    <fig id="F6" position="float">
+      <label>FIGURE 6</label>
+      <caption>
+        <p><bold>Functional analysis of SmDMT1A and SmDMT1B activity in yeast cells</bold>. <italic>fet3fet4</italic>-deficient yeast cells were transformed with either SmDMT1A, SmDMT1B, or positive control AtIrt1, which were all inserted in the expression vectorp FL61. Cells were also trans formed with the empty expression vector. <italic>A</italic>, growth of serially diluted cells after 6 days at 30 °C of SmDMT1A, SmDMT1B, AtIrt1, and control (pFL61) transformed fet3fet4 cells on synthetic-defined (SD) medium supplemented with 20, 2, or 0 μM FeCl<sub>3</sub>. <italic>B</italic>, growth in liquid SD medium supplemented with 20 μM FeCl<sub>3</sub>.</p>
+      </caption>
+      <graphic xlink:href="nihms-7770-0006"/>
+    </fig>
+  </floats-group>
+</article>

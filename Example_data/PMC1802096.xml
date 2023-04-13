@@ -1,0 +1,521 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties manuscript?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">100890575</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">21417</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Cell Biol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat. Cell Biol.</journal-id>
+      <journal-title-group>
+        <journal-title>Nature cell biology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1465-7392</issn>
+      <issn pub-type="epub">1476-4679</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">12198497</article-id>
+      <article-id pub-id-type="pmc">1802096</article-id>
+      <article-id pub-id-type="doi">10.1038/ncb844</article-id>
+      <article-id pub-id-type="manuscript">UKMS53</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>MOR1/GEM1 plays an essential role in the plant-specific cytokinetic phragmoplast</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Twell</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="author-notes" rid="FN2">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Park</surname>
+            <given-names>Soon Ki</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="author-notes" rid="FN2">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hawkins</surname>
+            <given-names>Timothy J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="author-notes" rid="FN2">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schubert</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schmidt</surname>
+            <given-names>Renate</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Smertenko</surname>
+            <given-names>Andrei</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hussey</surname>
+            <given-names>Patrick J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <aff id="A1"><label>1</label> Department of Biology, University of Leicester, University Road, Leicester LE1 7RH, United Kingdom</aff>
+        <aff id="A2"><label>2</label> The Integrative Cell Biology laboratory, School of Biological and Biomedical Sciences, University of Durham, South Road, Durham DH1 3LE, United Kingdom</aff>
+        <aff id="A3"><label>3</label> Max-Planck-Institute of Molecular Plant Physiology14424 Potsdam, Germany</aff>
+      </contrib-group>
+      <author-notes>
+        <fn fn-type="equal" id="FN2">
+          <label>4</label>
+          <p id="P1">D.T., S.K.P. and T.J.H. contributed equally to this paper</p>
+        </fn>
+        <corresp id="CR1">Correspondence and requests for materials should be addressed D.T. (<italic>gem1</italic> mutants) or P.J.H. (antibodies).</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>15</day>
+        <month>1</month>
+        <year>2007</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>9</month>
+        <year>2002</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>21</day>
+        <month>2</month>
+        <year>2007</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>9</issue>
+      <fpage>711</fpage>
+      <lpage>714</lpage>
+      <permissions>
+        <license>
+          <license-p>This file is available to download for the purposes of text mining, consistent with the principles of UK copyright law.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P2">MOR1 is a member of the MAP215 family of microtubule-associated proteins and is required to establish interphase cortical microtubule arrays in plant cells.<xref ref-type="bibr" rid="R1">1</xref> Here we show that MOR1 binds microtubules <italic>in vivo</italic>, localising to both cortical microtubules and to areas of overlapping microtubules in the phragmoplast. We demonstrate an essential role for MOR1 in cytokinesis through genetic complementation of the cytokinesis defective <italic>gem1-1</italic> mutation with <italic>MOR1</italic>. Phenotypic analysis of <italic>gem1-1</italic> and a T-DNA insertion allele <italic>gem1-2</italic> confirm that MOR1/GEM1 is essential for regular patterns of cytokinesis. Both mutations, <italic>gem1-1</italic> and <italic>gem1-2</italic>, cause the truncation of MOR1/GEM1. Moreover, the C-terminal domain absent in both mutants binds microtubules <italic>in vitro</italic>. These data demonstrate that MOR1/GEM1 plays an essential role in the cytokinetic phragmoplast.</p>
+      </abstract>
+      <funding-group>
+        <award-group>
+          <funding-source country="United Kingdom">Biotechnology and Biological Sciences Research Council : </funding-source>
+          <award-id>G08788 || BB_</award-id>
+        </award-group>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="S1">
+      <title>Text</title>
+      <p id="P3">In general microtubules form four distinct microtubule assemblies sequentially through the plant cell cycle. The interphase cortical array is involved in cell expansion. The preprophase band of microtubules delineates the plane of cell division. The spindle separates daughter chromosomes, and the phragmoplast, which forms in late anaphase, guides golgi-derived vesicles to a site where they will fuse to form the new cell plate that separates the daughter cells. This pattern of alternating arrays is reflected in every cell division in the plant, with the exception of meiotic cell divisions and subsequent gametophytic and endosperm mitoses, all of which lack a preprophase band. As in animal cells microtubule associated proteins must govern the organisation of these microtubule arrays. Three classes of plant structural MAP have been identitied two of which are unique to plants, MAP-65<xref ref-type="bibr" rid="R2">2</xref> and MAP190<xref ref-type="bibr" rid="R3">3</xref>,<xref ref-type="bibr" rid="R4">4</xref>, and the third is a homologue of Xenopus MAP215, named MOR1<xref ref-type="bibr" rid="R1">1</xref>,<xref ref-type="bibr" rid="R5">5</xref>.</p>
+      <p id="P4">The MAP215 family also includes human Ch-TOGp<xref ref-type="bibr" rid="R6">6</xref>, <italic>Dictyostelium discoideum</italic> DdCP224<xref ref-type="bibr" rid="R7">7</xref>, <italic>Drosophila melanogaster</italic> Msps<xref ref-type="bibr" rid="R8">8</xref>, <italic>Caenorhabditis elegans</italic> Zyg-9<xref ref-type="bibr" rid="R9">9</xref>, <italic>Schizosaccharomyces pombe</italic> Dis1<xref ref-type="bibr" rid="R10">10</xref> and Alp14<xref ref-type="bibr" rid="R11">11</xref> and <italic>Saccharomyces cerevisiae</italic> Stu2<xref ref-type="bibr" rid="R12">12</xref>. Various biochemical genetic and cell biological experiments have shown that members of this class of MAP are involved in regulating microtubule dynamics<xref ref-type="bibr" rid="R13">13</xref>,<xref ref-type="bibr" rid="R6">6</xref> and are essential for aspects of cell division<xref ref-type="bibr" rid="R12">12</xref> and cell morphogenesis<xref ref-type="bibr" rid="R1">1</xref>. The plant member of this group MOR1 was identified during a screen for temperature sensitive effects on microtubule organisation in <italic>Arabidopsis</italic> seedlings<xref ref-type="bibr" rid="R1">1</xref>. Two mutant alleles of <italic>mor1</italic> were identified, both of which result in a single amino acid substitution in the amino terminal HEAT repeat, a motif which is believed to be responsible for protein-protein interactions<xref ref-type="bibr" rid="R14">14</xref>. At the permissive temperature of 21°C cortical microtubules were similar to wild type, but on shifting to a restrictive temperature of 29°C cortical microtubules became progressively disorganised. Examination of <italic>mor1</italic> plants grown at the restrictive temperature revealed severe morphological defects including a left-handed twist of organs, isotropic cell expansion and impaired root hair polarity. Furthermore, seeds germinated at the restrictive temperature produce severely stunted plants that do not develop flowers. These observations suggested that MOR1 was essential in the maintenance of the interphase cortical array and for correct morphogeneis<xref ref-type="bibr" rid="R1">1</xref>.</p>
+      <p id="P5">To advance the study of MOR1 we raised an antiserum (anti-MOR1/CT) to the carboxy-terminal 855 amino acids expressed in <italic>E-coli</italic> (see Supplementary Information).This antiserum and anti-tubulin were used to double stain Arabidopsis cells through the cell cycle (<xref ref-type="fig" rid="F1">Fig. 1</xref>). The two cortical arrays, the interphase array and the preprophase band, stained with anti-MOR1/CT. After disruption of the interphase cortical array with the anti-microtubule herbicide oryzalin, tubulin and MOR1 aggregates remained (<xref ref-type="fig" rid="F1">Fig 1</xref>). These data indicate that MOR1 is capable of binding small microtubule oligomers and/or dimers as well as extended microtubule polymers. Similar experiments carried out using the antiserum to plant-specific MAP-65 did not reveal co-localisation to tubulin aggregates after microtubule disassembly consistent with the idea that MAP-65 only binds microtubule polymers<xref ref-type="bibr" rid="R2">2</xref>. MOR1 localises to the spindle and to the phragmoplast where it is concentrated in the midline where oppositely oriented microtubules overlap.</p>
+      <p id="P6">Immunoblotting and RT-PCR analyses revealed that MOR1 is expressed in all vegetative and reproductive tissues examined. (see Supplementary information).</p>
+      <p id="P7">What is intriguing about the immunolocalisation of MOR1 and its constitutive expression is that the spindle and phragmoplast arrays in both <italic>mor1</italic> mutations are unaffected. This would indicate that the N-terminal HEAT repeat plays a specific role in the interphase cortical array<xref ref-type="bibr" rid="R1">1</xref>. Here we show that the C-terminal domain of MOR1 which contains a microtubule binding site is essential for regular patterning of cytokinesis, which in plants is governed by the phragmoplast array.</p>
+      <p id="P8">In the anther of the flower meiocytes undergo meiosis to form the haploid microspores. Each microspore nucleus divides unequally at pollen mitosis 1 to form a larger vegetative and smaller generative cell (<xref ref-type="fig" rid="F2">Fig. 2</xref>). Subsequently, only the generative cell divides at pollen mitosis II to form the two sperm cells of the mature tricellular pollen grain<xref ref-type="bibr" rid="R15">15</xref>. The <italic>gem1</italic> mutation has been identified as a mutation affecting cytokinesis and the cell division pattern at pollen mitosis I<xref ref-type="bibr" rid="R16">16</xref>,<xref ref-type="bibr" rid="R17">17</xref>. <italic>gem1</italic> plants produce a significant proportion of microspores that either fail to establish a cell plate at pollen mitosis I or produce partial or irregular branching cell walls altering division symmetry (<xref ref-type="fig" rid="F2">Fig. 2</xref>). Internal cell walls are frequently incomplete and show highly irregular profiles in <italic>gem1</italic><xref ref-type="bibr" rid="R16">16</xref>,<xref ref-type="bibr" rid="R17">17</xref> (<xref ref-type="fig" rid="F2">Fig. 2</xref>). Nuclear divisions at pollen mitosis I are always complete in mutant <italic>gem1</italic> cells, producing binucleate or bicellular pollen (<xref ref-type="fig" rid="F2">Fig 2</xref>). These data have strongly suggested a direct role for GEM1 in cytokinesis. Moreover, <italic>gem1</italic> mutants are homozygous lethal and can only be maintained as heterozygotes demonstrating that <italic>GEM1</italic> is an essential gene.</p>
+      <p id="P9"><italic>GEM1</italic> was positionally cloned by mapping to an interval of less than 50kb within BAC clone T20F21 on chromosome 2. This region contained 9 putative genes including MOR1. Genomic fragments of cosmid DNA in this region were introduced into <italic>gem1-1</italic> heterozygotes. Normally <italic>gem1-1</italic> heterozygotes produce approximately 20% of aberrant pollen. Only plants containing a genomic fragment harbouring <italic>MOR1</italic> exhibited a weak phenotype, with the frequency of aberrant pollen reduced to the expected 10 % in single locus transformants. Complementation was further verified through co-segregation analysis (see Supplementary Information). These data demonstrate that <italic>MOR1</italic> is synonymous with <italic>GEM1</italic>.</p>
+      <p id="P10">We identified a second <italic>gemini pollen</italic> mutant showing similar defects in pollen cytokinesis in a T-DNA insertion population. The original <italic>gem1-1</italic> mutant<xref ref-type="bibr" rid="R16">16</xref>,<xref ref-type="bibr" rid="R17">17</xref> and this T-DNA insertion allele, <italic>gem1-2</italic>, exhibited a similar range of division phenotypes (<xref ref-type="fig" rid="F2">Fig 2</xref>). However, <italic>gem1-2</italic> showed a more severe phenotype than <italic>gem1-1</italic> with approximately 50% aberrant pollen in heterozygote plants. This suggests complete phenotypic penetrance of the <italic>gem1-2</italic> mutation in pollen. Moreover, the absence of sporophytic phenotypes in <italic>gem1-1</italic> and <italic>gem1-2</italic> heterozygotes reveals that both alleles are recessive to the wild type allele in sporophytic tissues. Complementation of the <italic>gem1-1</italic> phenotype with the wild type MOR1/GEM1 sequence further suggests that <italic>gem1-1</italic> also acts recessively in pollen.</p>
+      <p id="P11">The 14 kb genomic region containing MOR1 was sequenced from <italic>gem1</italic> heterozygotes and found to contain two point mutations in the coding sequence (<xref ref-type="fig" rid="F3">Fig 3a</xref>). The first in exon 22 (T to G) resulted in a change from serine at position 745 to alanine and the second in the splice acceptor (AG to AA) in intron 38. The Ser745 is not conserved in the MAP215 family. Sequencing of transcripts amplified from <italic>gem1-1</italic> heterozygotes identified the wild-type and a mis-spliced transcript in which the next downstream AG was used to create a transcript encoding the N-terminal 1326 aa of MOR1/GEM1 with a 6 amino acid C-terminal extension (<xref ref-type="fig" rid="F3">Fig 3b</xref>). <italic>gem1-2</italic> harboured a T-DNA insertion into exon12 and was confirmed to be expressed as a fusion transcript (<xref ref-type="fig" rid="F3">Fig 3a</xref>). The putative truncated protein is predicted to contain the N-terminal MOR1/GEM1 411 amino acids with a 48 amino acid C-terminal extension derived from T-DNA sequences (<xref ref-type="fig" rid="F3">Fig. 3b</xref>).</p>
+      <p id="P12">The region missing in both GEM1-1 and GEM 1-2 is the C-terminus that includes a putative microtubule-binding site at position 1786. Mutation of this site in XMAP215 causes reduced microtubule binding, but does not abolish microtubule binding.<xref ref-type="bibr" rid="R18">18</xref> indicating that this is not the only microtubule binding site. We used the recombinant C-terminal fragment of MOR1/GEM1 (aa 1123-1978) in a microtubule-binding co-sedimentation assay. In this assay the C-terminal fragment pellets with microtubules indicating a binding interaction. These data suggest that the loss of function in the <italic>gem1</italic> mutants is at least in part due to the lack of this microtubule binding domain. Other domains known to be missing from the <italic>gem1</italic> mutants include five potential kinase sites and two and eight HEAT repeats in <italic>gem1-1</italic> and <italic>gem1-2</italic> respectively. Lack of potential regulation by reversible phosphorylation or protein-protein interactions through the HEAT repeats may also contribute to the <italic>gem1</italic> phenotype.</p>
+      <p id="P13">The fact that the <italic>gem1</italic> mutants are homozygous lethal strongly suggests that sporophytic cell divisions may also be affected in a similar way. However, MOR1/GEM1 localises to all microtubule arrays so we cannot rule out the possibility that other MOR1/GEM1 mediated processes are also severely disrupted in sporophytic cells.</p>
+      <p id="P14">Our phenotypic and genetic analyses of <italic>gem1-1</italic> and <italic>gem1-2</italic> suggest that MOR1/GEM1 is essential for the correct functioning of the phragmoplast at pollen mitosis I and that partial or complete lack of a microtubule-binding domain may be a cause of this defect. In <italic>gem1-1</italic> we propose that the longer truncated GEM1-1 product retains partial function, allowing normal cytokinesis in a proportion of <italic>gem1-1</italic> mutant spores. In the more severe <italic>gem1-2</italic> allele all <italic>gem1-2</italic> mutant spores are affected, indicating that the shorter GEM1-2 product does not maintain its function in the phragmoplast at pollen mitosis I. Although we cannot rule out conditional semi-dominant effects on cytokinesis, the fact that heterozygote <italic>gem</italic> mutant plants have no constituitive phenotype strongly suggests that both are loss of function alleles.</p>
+      <p id="P15">The <italic>mor1</italic> mutants highlighted a role for the N-terminal HEAT repeat in the interphase cortical array <xref ref-type="bibr" rid="R1">1</xref>. In contrast the <italic>gem1</italic> mutants specify a role for the C-terminus of MOR1/GEM1 in phragmoplast organisation. Neither <italic>mor1</italic> or <italic>gem1</italic> mutants are defective in nuclear division indicating that these domains are not required for spindle function.</p>
+      <p id="P16">Our data indicate that MOR1/GEM1 like other members of this family, can bind microtubule polymers and small tubulin aggregates. MOR1/GEM1 concentrates at the midline of the phragmoplast where the plus ends of opposing microtubules overlap. It has been proposed that MAP65, which is believed to cross-link anti-parallel microtubules, serves to stabilise the line of overlap<xref ref-type="bibr" rid="R2">2</xref>. Moreover, it has been shown that exogenous tubulin subunits are added at the overlapping plus ends at the midline<xref ref-type="bibr" rid="R19">19</xref>. As members of the MAP215 family stimulate microtubule assembly at the plus ends<xref ref-type="bibr" rid="R6">6</xref>,<xref ref-type="bibr" rid="R20">20</xref>,<xref ref-type="bibr" rid="R21">21</xref>,<xref ref-type="bibr" rid="R22">22</xref>, it is possible that MOR1/GEM1 serves to stabilise the growing ends at the midline promoting the flux of tubulin through the microtubules. The predicted diminished microtubule-binding capabilities of GEM1-1 and GEM1-2 may cause destabilisation of the line of overlap resulting in the aberrant cell plate formation seen in the <italic>gem1</italic> mutants.</p>
+    </sec>
+    <sec sec-type="methods" id="S2">
+      <title>Methods</title>
+      <sec id="S3">
+        <title>Bacterial expression of MOR1/GEM1 C-terminal fragment</title>
+        <p id="P17">The MOR1/GEM1 C-terminal fragment was amplified from <italic>A. thaliana</italic> seedling total RNA using RT-PCR, cloned into pET28a (Novagen), expressed and purified as a His-tagged protein from <italic>E. coli</italic> BL21 (see Supplementary Information).</p>
+      </sec>
+      <sec id="S4">
+        <title>Antibodies and immunofluorescence</title>
+        <p id="P18">Primary antibody, anti-MOR1/CT was raised in mice against the purified MOR1/GEM1 C-terminal fragment. The recombinant protein was administered as three fortnightly injections of 100 μg protein mixed 1:1 with Freund's incomplete adjuvant. Anti-α-tubulin raised in sheep as described<xref ref-type="bibr" rid="R23">23</xref>. Anti-mouse TRITC conjugated and anti-sheep FITC conjugated antibodies were used as the secondary antibodies (Sigma). For immunofluorescence studies, <italic>A. thaliana</italic> tissue culture cells were prepared as described.<xref ref-type="bibr" rid="R23">23</xref> In the study of the interphase cortical array protoplasts were treated with or without 2mM oryzalin for 2 hours then fixed and stained as described<xref ref-type="bibr" rid="R23">23</xref></p>
+      </sec>
+      <sec id="S5">
+        <title>Microtubule co-sedimentation assay</title>
+        <p id="P19">Tubulin was isolated from porcine brain as described<xref ref-type="bibr" rid="R24">24</xref> Following removal from −80 storage and thawing, both recombinant MOR1/GEM1 C-terminal protein and tubulin were centrifuged at 120,000g for 30 minutes to remove protein aggregates. Tubulin was incubated with the recombinant protein for 30 minutes at 30°C in PEM buffer (50 mM PIPES, 2 mM EGTA, 2 mM MgCl<sub>2</sub> and 0.1 mM GTP), centrifuged at 100,000xg for 30 minutes and analysed on a 7.5% 1 dimensional SDS PAGE gel. Recombinant MOR1/GEM1 C-terminal protein alone, used as a negative control, gave no pellet following centrifugation at 100.000xg.</p>
+      </sec>
+      <sec id="S6">
+        <title>Complementation analysis of <italic>gem1-1</italic></title>
+        <p id="P20">A cosmid clone 44-1 covering only 13.5kb of <italic>MOR1/GEM1</italic> genomic sequence was selected through PCR screening of a cosmid library (CD 4-11, Arabidopsis Biological Resource Center). Cosmid DNA was mobilised into <italic>Agrobacterium</italic> strain GV3101 and used for plant transformation by floral dipping<xref ref-type="bibr" rid="R25">25</xref> A 15 kb <italic>Xba</italic> I partial digestion product, not overlapping with cosmid clone 44-1, was subcloned from BAC T20F21 into pMOG22<xref ref-type="bibr" rid="R26">26</xref> and used as a transformation control. Hygromycin resistant (Hyg<sup>R</sup>) seedlings were grown to maturity and their pollen phenotype analysed by DAPI staining<xref ref-type="bibr" rid="R16">16</xref>.</p>
+      </sec>
+      <sec id="S7">
+        <title>Phenotype, mapping and expression analysis</title>
+        <p id="P21">Pollen division phenotypes were analysed in fixed spores using bright field and UV epi-illumination and electron microscopy as previously described.<xref ref-type="bibr" rid="R16">16</xref>,<xref ref-type="bibr" rid="R17">17</xref>
+<italic>gem1-1</italic> was mapped as described<xref ref-type="bibr" rid="R16">16</xref> but with the use of newly designed PCR-based markers showing polymorphism between No-O and Col-O. Genomic DNA extracted from <italic>gem1-1</italic> heterozygotes was used as template for PCR amplification and sequencing of 13.5kb of <italic>MOR1/GEM1</italic> using the automated ABI Prism <sup>™</sup> procedure (Applied Biosystems). Sequence data was analysed using Sequence Editor v 1.0.3 (Applied Biosystems) to identify ambiguous bases showing two peaks at the same position. Ambiguous bases in <italic>gem1-1</italic> were confirmed by the sequencing of RT-PCR products. Total RNA from different tissues (root, stem, leaf, flower, microspore and pollen) of <italic>gem1-1</italic> and wild-type was extracted with Trizol reagent (Life Technologies, Rockville, MD) and RT-PCR was performed using the R<sup>everse-i</sup>T<sup>™ ONE-STEP</sup> RT-PCR kit (Advanced Biotechnologies Ltd. Surrey, UK).</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>supp data</label>
+        <media xlink:href="NIHMS53-supplement-supp_data.doc" xlink:type="simple" id="d35e630" position="anchor" mimetype="application" mime-subtype="msword"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>suppfig1</label>
+        <media xlink:href="NIHMS53-supplement-suppfig1.tif" xlink:type="simple" id="d35e634" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>suppfig2</label>
+        <media xlink:href="NIHMS53-supplement-suppfig2.tif" xlink:type="simple" id="d35e638" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD4">
+        <label>suppfig3</label>
+        <media xlink:href="NIHMS53-supplement-suppfig3.tif" xlink:type="simple" id="d35e642" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD5">
+        <label>suppfig4</label>
+        <media xlink:href="NIHMS53-supplement-suppfig4.tif" xlink:type="simple" id="d35e646" position="anchor" mimetype="image" mime-subtype="tiff"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S8">
+      <title>Acknowledgements</title>
+      <p>We thank Geoff Wasteneys for generously providing MOR1 sequencing primers. This work was funded by the Biotechnology and Biological Sciences Research Council UK.</p>
+    </ack>
+    <fn-group>
+      <fn id="FN1">
+        <p id="P22">Accession number</p>
+        <p id="P23">The wild type genomic sequence of MOR1/GEM1 in the Nossen (No-0) ecotype will appear under GenBank accession number AY124770.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Whittington</surname><given-names>AT</given-names></name><etal/></person-group>
+<source>Nature</source>
+<year>2000</year>
+<volume>411</volume>
+<fpage>610</fpage>
+<lpage>613</lpage>
+<pub-id pub-id-type="pmid">11385579</pub-id></element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smertenko</surname><given-names>A</given-names></name><etal/></person-group>
+<source>Nat. Cell Biol</source>
+<year>2000</year>
+<volume>2</volume>
+<fpage>750</fpage>
+<lpage>753</lpage>
+<pub-id pub-id-type="pmid">11025667</pub-id></element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Igarashi</surname><given-names>H</given-names></name><name><surname>Orii</surname><given-names>H</given-names></name><name><surname>Mori</surname><given-names>H</given-names></name><name><surname>Shimmen</surname><given-names>T</given-names></name><name><surname>Sonobe</surname><given-names>S</given-names></name><etal/></person-group>
+<source>Plant Cell Physiol</source>
+<year>2000</year>
+<volume>41</volume>
+<fpage>920</fpage>
+<lpage>931</lpage>
+<pub-id pub-id-type="pmid">11038052</pub-id></element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hussey</surname><given-names>PJ</given-names></name><name><surname>Hawkins</surname><given-names>TJ</given-names></name><name><surname>Igarashi</surname><given-names>H</given-names></name><name><surname>Kaloriti</surname><given-names>D</given-names></name><name><surname>Smertenko</surname><given-names>A</given-names></name></person-group>
+<source>Plant Mol. Biol</source>
+<comment>in press</comment>
+</element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hussey</surname><given-names>PJ</given-names></name><name><surname>Hawkins</surname><given-names>TJ</given-names></name></person-group>
+<source>Trends Pl. Sci</source>
+<year>2001</year>
+<volume>6</volume>
+<fpage>389</fpage>
+<lpage>3912</lpage>
+</element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Charrasse</surname><given-names>S</given-names></name><etal/></person-group>
+<source>J. Cell Sci</source>
+<year>1998</year>
+<volume>111</volume>
+<fpage>1371</fpage>
+<lpage>1383</lpage>
+<pub-id pub-id-type="pmid">9570755</pub-id></element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Graef</surname><given-names>R</given-names></name><name><surname>Daunderer</surname><given-names>C</given-names></name><name><surname>Schliwa</surname><given-names>M</given-names></name></person-group>
+<source>J. Cell Sci</source>
+<year>2000</year>
+<volume>113</volume>
+<fpage>1747</fpage>
+<lpage>1758</lpage>
+<pub-id pub-id-type="pmid">10769206</pub-id></element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cullen</surname><given-names>CF</given-names></name><name><surname>Deah</surname><given-names>P</given-names></name><name><surname>Glover</surname><given-names>DM</given-names></name><name><surname>Ohkura</surname><given-names>H</given-names></name><etal/></person-group>
+<source>J. Cell Biol</source>
+<year>1999</year>
+<volume>146</volume>
+<fpage>1005</fpage>
+<lpage>1018</lpage>
+<pub-id pub-id-type="pmid">10477755</pub-id></element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hirsh</surname><given-names>D</given-names></name><name><surname>Vanderslice</surname><given-names>R</given-names></name></person-group>
+<source>Dev. Biol</source>
+<year>1979</year>
+<volume>49</volume>
+<fpage>220</fpage>
+<lpage>235</lpage>
+<pub-id pub-id-type="pmid">943345</pub-id></element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ohkura</surname><given-names>H</given-names></name><name><surname>Adachi</surname><given-names>Y</given-names></name><name><surname>Kinoshita</surname><given-names>N</given-names></name><name><surname>Niwa</surname><given-names>O</given-names></name><name><surname>Toda</surname><given-names>T</given-names></name><name><surname>Yanagida</surname><given-names>M</given-names></name><etal/></person-group>
+<source>EMBO J</source>
+<year>1988</year>
+<volume>7</volume>
+<fpage>1465</fpage>
+<lpage>1473</lpage>
+<pub-id pub-id-type="pmid">3409871</pub-id></element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garcia</surname><given-names>MA</given-names></name><name><surname>Vardy</surname><given-names>L</given-names></name><name><surname>Koonrugsa</surname><given-names>N</given-names></name><name><surname>Toda</surname><given-names>T</given-names></name></person-group>
+<source>EMBO J</source>
+<volume>20</volume>
+<fpage>3389</fpage>
+<lpage>3401</lpage>
+<pub-id pub-id-type="pmid">11432827</pub-id></element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>PJ</given-names></name><name><surname>Huffaker</surname><given-names>TC</given-names></name></person-group>
+<source>J. Cell. Biol</source>
+<year>1997</year>
+<volume>139</volume>
+<fpage>1271</fpage>
+<lpage>1280</lpage>
+<pub-id pub-id-type="pmid">9382872</pub-id></element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tournebize</surname><given-names>R</given-names></name><etal/></person-group>
+<source>Nat. cell Biol</source>
+<year>2000</year>
+<volume>2</volume>
+<fpage>13</fpage>
+<lpage>19</lpage>
+<pub-id pub-id-type="pmid">10620801</pub-id></element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neuwald</surname><given-names>AF</given-names></name><name><surname>Hirano</surname><given-names>T</given-names></name></person-group>
+<source>Genome Res</source>
+<volume>10</volume>
+<fpage>1445</fpage>
+<lpage>1552</lpage>
+<pub-id pub-id-type="pmid">11042144</pub-id></element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Twell</surname><given-names>D</given-names></name><name><surname>Park</surname><given-names>SK</given-names></name><name><surname>Lalanne</surname><given-names>E</given-names></name></person-group>
+<source>Trends Pl. Sci</source>
+<year>1998</year>
+<volume>3</volume>
+<fpage>305</fpage>
+<lpage>310</lpage>
+</element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Park</surname><given-names>SK</given-names></name><name><surname>Howden</surname><given-names>R</given-names></name><name><surname>Twell</surname><given-names>D</given-names></name></person-group>
+<source>Development</source>
+<year>1998</year>
+<volume>125</volume>
+<fpage>3789</fpage>
+<lpage>3799</lpage>
+<pub-id pub-id-type="pmid">9729487</pub-id></element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Park</surname><given-names>SK</given-names></name><name><surname>Twell</surname><given-names>D</given-names></name></person-group>
+<source>Plant Phys</source>
+<year>2001</year>
+<volume>126</volume>
+<fpage>899</fpage>
+<lpage>909</lpage>
+</element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Popov</surname><given-names>AV</given-names></name><etal/></person-group>
+<source>EMBO J</source>
+<year>2001</year>
+<volume>20</volume>
+<fpage>397</fpage>
+<lpage>410</lpage>
+<pub-id pub-id-type="pmid">11157747</pub-id></element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Asada</surname><given-names>T</given-names></name><name><surname>Sonobe</surname><given-names>S</given-names></name><name><surname>Shibaoka</surname><given-names>H</given-names></name></person-group>
+<source>Nature</source>
+<year>1991</year>
+<volume>350</volume>
+<fpage>238</fpage>
+<lpage>241</lpage>
+</element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gard</surname><given-names>DL</given-names></name><name><surname>Kirschner</surname><given-names>MW</given-names></name></person-group>
+<source>J. Cell Biol</source>
+<year>1987</year>
+<volume>105</volume>
+<fpage>2203</fpage>
+<lpage>2215</lpage>
+<pub-id pub-id-type="pmid">2890645</pub-id></element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vasquez</surname><given-names>RJ</given-names></name><name><surname>Gard</surname><given-names>DL</given-names></name><name><surname>Cassimeris</surname><given-names>L</given-names></name></person-group>
+<source>J. Cell Biol</source>
+<year>1994</year>
+<volume>127</volume>
+<fpage>985</fpage>
+<lpage>993</lpage>
+<pub-id pub-id-type="pmid">7962080</pub-id></element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tournebize</surname><given-names>R</given-names></name><etal/></person-group>
+<source>Nat. cell Biol</source>
+<year>2000</year>
+<volume>2</volume>
+<fpage>13</fpage>
+<lpage>19</lpage>
+<pub-id pub-id-type="pmid">10620801</pub-id></element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smertenko</surname><given-names>AP</given-names></name><name><surname>Lawrence</surname><given-names>SL</given-names></name><name><surname>Hussey</surname><given-names>PJ</given-names></name></person-group>
+<source>Protoplasma</source>
+<year>1998</year>
+<volume>203</volume>
+<fpage>138</fpage>
+<lpage>143</lpage>
+</element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shelanski</surname><given-names>ML</given-names></name><name><surname>Gaskin</surname><given-names>F</given-names></name><name><surname>Cantor</surname><given-names>CR</given-names></name></person-group>
+<source>Proc. Natl.. Acad. Sci. USA</source>
+<year>1973</year>
+<volume>70</volume>
+<fpage>765</fpage>
+<lpage>768</lpage>
+<pub-id pub-id-type="pmid">4514990</pub-id></element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clough</surname><given-names>SJ</given-names></name><name><surname>Bent</surname><given-names>AF</given-names></name></person-group>
+<source>Plant J</source>
+<year>1998</year>
+<volume>16</volume>
+<fpage>735</fpage>
+<lpage>743</lpage>
+<pub-id pub-id-type="pmid">10069079</pub-id></element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goddijn</surname><given-names>OJM</given-names></name><name><surname>Lindsey</surname><given-names>K</given-names></name><name><surname>van der lee</surname><given-names>FM</given-names></name><name><surname>Klap</surname><given-names>JC</given-names></name><name><surname>Sijmons</surname><given-names>PC</given-names></name><etal/></person-group>
+<source>Plant J</source>
+<year>1993</year>
+<volume>4</volume>
+<fpage>863</fpage>
+<lpage>873</lpage>
+<pub-id pub-id-type="pmid">8275103</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p><bold>MOR1/GEM1 decorates microtubules and oryzalin induced tubulin aggregates.</bold> Arabidopsis suspension culture protoplasts or cells were double stained for tubulin and MOR1 at various stages of the cell cycle. Images show anti-tubulin (green, left panels) and anti-MOR1/CT (red, central panels) fluorescence; yellow colouration in merged images (right panels) represents co-localisation. a-b, Arabidopsis protoplasts. a, interphase cortical array. b, Oryzalin treated protoplasts (2 h at 25°C). c-e, Arabidopsis cells c, preprophase band d, metaphase spindle. e, late anaphase spindle. f, phragmoplast.</p>
+      </caption>
+      <graphic xlink:href="nihms-53-0001"/>
+    </fig>
+    <fig id="F2" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p><italic>gem1-2</italic> shows a cytokinesis defective phenotype.</p>
+        <p>Isolated pollen at early bicellular stage was fixed and stained with DAPI. Bright field (top panels) and epi-fluorescence (bottom panels) images of wild-type and <italic>gem1-2</italic>. Wild-type pollen shows a typical curved cell wall, but <italic>gem1-2</italic> like <italic>gem1-1</italic><xref ref-type="bibr" rid="R16">16</xref>,<xref ref-type="bibr" rid="R17">17</xref> pollen fail in cytokinesis or produce complex, branching walls (arrowheads) after completion of karyokinesis.</p>
+      </caption>
+      <graphic xlink:href="nihms-53-0002"/>
+    </fig>
+    <fig id="F3" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p>MOR1/GEM1 gene and protein structures.</p>
+        <p><bold>a,</bold> Diagram of MOR1/GEM1 exon structure (black bars) showing the positions of the base changes in <italic>gem1-1</italic>, the position of the T-DNA insertion in <italic>gem1-2,</italic> and the base changes in <italic>mor1-1</italic> and <italic>mor1-2</italic>. <bold>b,</bold> Diagram representing the motif content of MOR1/GEM1. Positions of the <italic>mor1</italic> (see ref. <xref ref-type="bibr" rid="R1">1</xref>) and <italic>gem1</italic> mutations are shown, together with the expected GEM1 truncation products and the length of the expressed C-terminal fragment used for antibody generation and microtubule co-sedimentation assays. Motifs were identified using bioinformatic algorithms located on web-based servers: <ext-link ext-link-type="uri" xlink:href="http://www.ch.embnet.org/software/TMPRED_form.html">http://www.ch.embnet.org/software/TMPRED_form.html</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://psort.nibb.ac.jp">http://psort.nibb.ac.jp</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://smart.embl-heidelberg.de/smart/">http://smart.embl-heidelberg.de/smart/</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://www.embl-heidelberg.de/~andrade/papers/rep/">http://www.embl-heidelberg.de/~andrade/papers/rep/</ext-link>;.</p>
+      </caption>
+      <graphic xlink:href="nihms-53-0003"/>
+    </fig>
+    <fig id="F4" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <p>MOR1/GEM1 C-terminus binds to pig-brain microtubules.</p>
+        <p>Co-sedimentation of recombinant MOR1/GEM1 (aa 1123-1978) with microtubules analysed by SDS-PAGE and stained with Coomassie. S, supernatant. P, microtubule pellet.</p>
+      </caption>
+      <graphic xlink:href="nihms-53-0004"/>
+    </fig>
+  </floats-group>
+</article>
