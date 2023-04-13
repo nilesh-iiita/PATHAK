@@ -1,6 +1,9 @@
 # PATHAK
 NLP-based method to mine gene and function relationships from published articles.
 
-![PATHAK](https://nilesh-iiita.github.io/PATHAK/_static/PATHAK.png | width=100)
+<img src="https://nilesh-iiita.github.io/PATHAK/_static/PATHAK.png" alt="PATHAK" width="200" height="220" title="PATHAK">
 
-![PATHAK](https://nilesh-iiita.github.io/PATHAK/_static/PATHAK.png)
+
+<iframe src="https://nilesh-iiita.github.io/PATHAK/intro.html" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
+
+
