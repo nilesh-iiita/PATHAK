@@ -1,0 +1,1483 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Pathak: Example &#8212; PATHAK</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '3_PhenoMiner_plant';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="GO Terms Defination Embedding" href="2_GO_term_embedding.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/POTFUL.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/POTFUL.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    PATHAK
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Installation%20and%20environment%20setup.html">Installation and environment setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1_GO.html">Preprocessing of Ontology file</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_GO_term_embedding.html">GO Terms Defination Embedding</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Pathak: Example</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F3_PhenoMiner_plant.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/3_PhenoMiner_plant.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Pathak: Example</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#load-java-8-and-set-java-home-directory">Load Java 8 and Set Java home directory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#call-function-to-predict-gos">Call function to predict GOs</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="pathak-example">
+<h1>Pathak: Example<a class="headerlink" href="#pathak-example" title="Permalink to this heading">#</a></h1>
+<div class="alert alert-block alert-info">
+    <h2>🐍Load Python libraries</h2>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">import</span> <span class="nn">pickle</span>
+<span class="kn">import</span> <span class="nn">os.path</span>
+
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">pickle</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">typing</span>
+
+
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+
+<span class="kn">import</span> <span class="nn">nlu</span>
+<span class="kn">import</span> <span class="nn">nltk</span>
+<span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">&#39;punkt&#39;</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">nltk.tokenize</span> <span class="kn">import</span> <span class="n">word_tokenize</span>  
+<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">FreqDist</span><span class="p">,</span> <span class="n">sent_tokenize</span><span class="p">,</span> <span class="n">word_tokenize</span> <span class="c1"># $ pip install nltk</span>
+
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">import</span> <span class="nn">plotly.io</span> <span class="k">as</span> <span class="nn">pio</span>
+<span class="n">pio</span><span class="o">.</span><span class="n">renderers</span>
+<span class="n">pio</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">default</span> <span class="o">=</span> <span class="s2">&quot;svg&quot;</span>
+
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">chain</span>
+<span class="kn">from</span> <span class="nn">tqdm.notebook</span> <span class="kn">import</span> <span class="n">tqdm</span><span class="p">,</span> <span class="n">trange</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="kn">import</span> <span class="nn">session_info</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data] Downloading package punkt to /home/nileshkr/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+</pre></div>
+</div>
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">27</span>
+<span class="g g-Whitespace">     </span><span class="mi">24</span> <span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="g g-Whitespace">     </span><span class="mi">26</span> <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="ne">---&gt; </span><span class="mi">27</span> <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="g g-Whitespace">     </span><span class="mi">28</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="g g-Whitespace">     </span><span class="mi">29</span> <span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+
+<span class="n">File</span> <span class="o">~/.</span><span class="n">conda</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">sparknlp</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.8</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">seaborn</span><span class="o">/</span><span class="fm">__init__</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># Import seaborn objects</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="kn">from</span> <span class="nn">.rcmod</span> <span class="kn">import</span> <span class="o">*</span>  <span class="c1"># noqa: F401,F403</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">from</span> <span class="nn">.utils</span> <span class="kn">import</span> <span class="o">*</span>  <span class="c1"># noqa: F401,F403</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">from</span> <span class="nn">.palettes</span> <span class="kn">import</span> <span class="o">*</span>  <span class="c1"># noqa: F401,F403</span>
+
+<span class="n">File</span> <span class="o">~/.</span><span class="n">conda</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">sparknlp</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.8</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">seaborn</span><span class="o">/</span><span class="n">rcmod</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">3</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="sd">&quot;&quot;&quot;Control plot style and scaling using the matplotlib rcParams interface.&quot;&quot;&quot;</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">functools</span>
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="nn">mpl</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">from</span> <span class="nn">cycler</span> <span class="kn">import</span> <span class="n">cycler</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">palettes</span>
+
+<span class="n">File</span> <span class="o">~/.</span><span class="n">conda</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">sparknlp</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.8</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="fm">__init__</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">113</span>
+<span class="g g-Whitespace">    </span><span class="mi">109</span> <span class="kn">from</span> <span class="nn">packaging.version</span> <span class="kn">import</span> <span class="n">parse</span> <span class="k">as</span> <span class="n">parse_version</span>
+<span class="g g-Whitespace">    </span><span class="mi">111</span> <span class="c1"># cbook must import matplotlib only within function</span>
+<span class="g g-Whitespace">    </span><span class="mi">112</span> <span class="c1"># definitions, so it is safe to import from it here.</span>
+<span class="ne">--&gt; </span><span class="mi">113</span> <span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">_api</span><span class="p">,</span> <span class="n">_version</span><span class="p">,</span> <span class="n">cbook</span><span class="p">,</span> <span class="n">_docstring</span><span class="p">,</span> <span class="n">rcsetup</span>
+<span class="g g-Whitespace">    </span><span class="mi">114</span> <span class="kn">from</span> <span class="nn">matplotlib.cbook</span> <span class="kn">import</span> <span class="n">sanitize_sequence</span>
+<span class="g g-Whitespace">    </span><span class="mi">115</span> <span class="kn">from</span> <span class="nn">matplotlib._api</span> <span class="kn">import</span> <span class="n">MatplotlibDeprecationWarning</span>
+
+<span class="n">File</span> <span class="o">~/.</span><span class="n">conda</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">sparknlp</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.8</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">rcsetup</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">27</span>
+<span class="g g-Whitespace">     </span><span class="mi">25</span> <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">_api</span><span class="p">,</span> <span class="n">cbook</span>
+<span class="g g-Whitespace">     </span><span class="mi">26</span> <span class="kn">from</span> <span class="nn">matplotlib.cbook</span> <span class="kn">import</span> <span class="n">ls_mapper</span>
+<span class="ne">---&gt; </span><span class="mi">27</span> <span class="kn">from</span> <span class="nn">matplotlib.colors</span> <span class="kn">import</span> <span class="n">Colormap</span><span class="p">,</span> <span class="n">is_color_like</span>
+<span class="g g-Whitespace">     </span><span class="mi">28</span> <span class="kn">from</span> <span class="nn">matplotlib._fontconfig_pattern</span> <span class="kn">import</span> <span class="n">parse_fontconfig_pattern</span>
+<span class="g g-Whitespace">     </span><span class="mi">29</span> <span class="kn">from</span> <span class="nn">matplotlib._enums</span> <span class="kn">import</span> <span class="n">JoinStyle</span><span class="p">,</span> <span class="n">CapStyle</span>
+
+<span class="n">File</span> <span class="o">~/.</span><span class="n">conda</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">sparknlp</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.8</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">colors</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">56</span>
+<span class="g g-Whitespace">     </span><span class="mi">54</span> <span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="nn">mpl</span>
+<span class="g g-Whitespace">     </span><span class="mi">55</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="ne">---&gt; </span><span class="mi">56</span> <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">_api</span><span class="p">,</span> <span class="n">_cm</span><span class="p">,</span> <span class="n">cbook</span><span class="p">,</span> <span class="n">scale</span>
+<span class="g g-Whitespace">     </span><span class="mi">57</span> <span class="kn">from</span> <span class="nn">._color_data</span> <span class="kn">import</span> <span class="n">BASE_COLORS</span><span class="p">,</span> <span class="n">TABLEAU_COLORS</span><span class="p">,</span> <span class="n">CSS4_COLORS</span><span class="p">,</span> <span class="n">XKCD_COLORS</span>
+<span class="g g-Whitespace">     </span><span class="mi">60</span> <span class="k">class</span> <span class="nc">_ColorMapping</span><span class="p">(</span><span class="nb">dict</span><span class="p">):</span>
+
+<span class="n">File</span> <span class="o">~/.</span><span class="n">conda</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">sparknlp</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.8</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">scale</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">22</span>
+<span class="g g-Whitespace">     </span><span class="mi">20</span> <span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="nn">mpl</span>
+<span class="g g-Whitespace">     </span><span class="mi">21</span> <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">_api</span><span class="p">,</span> <span class="n">_docstring</span>
+<span class="ne">---&gt; </span><span class="mi">22</span> <span class="kn">from</span> <span class="nn">matplotlib.ticker</span> <span class="kn">import</span> <span class="p">(</span>
+<span class="g g-Whitespace">     </span><span class="mi">23</span>     <span class="n">NullFormatter</span><span class="p">,</span> <span class="n">ScalarFormatter</span><span class="p">,</span> <span class="n">LogFormatterSciNotation</span><span class="p">,</span> <span class="n">LogitFormatter</span><span class="p">,</span>
+<span class="g g-Whitespace">     </span><span class="mi">24</span>     <span class="n">NullLocator</span><span class="p">,</span> <span class="n">LogLocator</span><span class="p">,</span> <span class="n">AutoLocator</span><span class="p">,</span> <span class="n">AutoMinorLocator</span><span class="p">,</span>
+<span class="g g-Whitespace">     </span><span class="mi">25</span>     <span class="n">SymmetricalLogLocator</span><span class="p">,</span> <span class="n">AsinhLocator</span><span class="p">,</span> <span class="n">LogitLocator</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">26</span> <span class="kn">from</span> <span class="nn">matplotlib.transforms</span> <span class="kn">import</span> <span class="n">Transform</span><span class="p">,</span> <span class="n">IdentityTransform</span>
+<span class="g g-Whitespace">     </span><span class="mi">29</span> <span class="k">class</span> <span class="nc">ScaleBase</span><span class="p">:</span>
+
+<span class="n">File</span> <span class="o">~/.</span><span class="n">conda</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">sparknlp</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.8</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">ticker</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">138</span>
+<span class="g g-Whitespace">    </span><span class="mi">136</span> <span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="nn">mpl</span>
+<span class="g g-Whitespace">    </span><span class="mi">137</span> <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">_api</span><span class="p">,</span> <span class="n">cbook</span>
+<span class="ne">--&gt; </span><span class="mi">138</span> <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">transforms</span> <span class="k">as</span> <span class="n">mtransforms</span>
+<span class="g g-Whitespace">    </span><span class="mi">140</span> <span class="n">_log</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">142</span> <span class="n">__all__</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;TickHelper&#39;</span><span class="p">,</span> <span class="s1">&#39;Formatter&#39;</span><span class="p">,</span> <span class="s1">&#39;FixedFormatter&#39;</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">143</span>            <span class="s1">&#39;NullFormatter&#39;</span><span class="p">,</span> <span class="s1">&#39;FuncFormatter&#39;</span><span class="p">,</span> <span class="s1">&#39;FormatStrFormatter&#39;</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">144</span>            <span class="s1">&#39;StrMethodFormatter&#39;</span><span class="p">,</span> <span class="s1">&#39;ScalarFormatter&#39;</span><span class="p">,</span> <span class="s1">&#39;LogFormatter&#39;</span><span class="p">,</span>
+   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">150</span>            <span class="s1">&#39;MultipleLocator&#39;</span><span class="p">,</span> <span class="s1">&#39;MaxNLocator&#39;</span><span class="p">,</span> <span class="s1">&#39;AutoMinorLocator&#39;</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">151</span>            <span class="s1">&#39;SymmetricalLogLocator&#39;</span><span class="p">,</span> <span class="s1">&#39;AsinhLocator&#39;</span><span class="p">,</span> <span class="s1">&#39;LogitLocator&#39;</span><span class="p">)</span>
+
+<span class="n">File</span> <span class="o">~/.</span><span class="n">conda</span><span class="o">/</span><span class="n">envs</span><span class="o">/</span><span class="n">sparknlp</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.8</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">transforms</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">49</span>
+<span class="g g-Whitespace">     </span><span class="mi">46</span> <span class="kn">from</span> <span class="nn">numpy.linalg</span> <span class="kn">import</span> <span class="n">inv</span>
+<span class="g g-Whitespace">     </span><span class="mi">48</span> <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">_api</span>
+<span class="ne">---&gt; </span><span class="mi">49</span> <span class="kn">from</span> <span class="nn">matplotlib._path</span> <span class="kn">import</span> <span class="p">(</span>
+<span class="g g-Whitespace">     </span><span class="mi">50</span>     <span class="n">affine_transform</span><span class="p">,</span> <span class="n">count_bboxes_overlapping_bbox</span><span class="p">,</span> <span class="n">update_path_extents</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">51</span> <span class="kn">from</span> <span class="nn">.path</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="g g-Whitespace">     </span><span class="mi">53</span> <span class="n">DEBUG</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="ne">KeyboardInterrupt</span>: 
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-warning">
+    <h2><b>Environment setup: </b>Make sure java is loaded</h2>
+</div><section id="load-java-8-and-set-java-home-directory">
+<h2>Load Java 8 and Set Java home directory<a class="headerlink" href="#load-java-8-and-set-java-home-directory" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Load Java 8 required by nlu and Pyspark</span>
+<span class="c1"># !module load Java/1.8.0_202</span>
+<span class="o">!</span>java -version
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>java version &quot;1.8.0_202&quot;
+Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Set Java home directory cheaha</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;JAVA_HOME&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;JAVA_HOME&quot;</span><span class="p">]</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;PATH&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;JAVA_HOME&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;/bin:&quot;</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;PATH&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>print(os.environ[“JAVA_HOME”])</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<div class="alert alert-block alert-info">
+    <h2>Set spark environment varibales</h2>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;PYSPARK_PYTHON&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/home/nileshkr/.conda/envs/sparknlp/bin/python3.8&#39;</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;PYSPARK_DRIVER_PYTHON&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/home/nileshkr/.conda/envs/sparknlp/bin/python3.8&#39;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h2>Load pretrained model and supporting file</h2>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;GO_BP_Ontology_corups_Filtered.tsv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;predictions_full_BP.pickle&#39;</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+    <span class="n">predictions</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">handle</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>document</th>
+      <th>sentence_embedding_biobert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>The maintenance of the structure and integrity...</td>
+      <td>[-0.1828726977109909, 0.25272125005722046, -0....</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>The production of new individuals that contain...</td>
+      <td>[-0.031625792384147644, 0.027806805446743965, ...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>The repair of single strand breaks in DNA.</td>
+      <td>[-0.05223826691508293, -0.028281446546316147, ...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Repair of such breaks is mediated by the same ...</td>
+      <td>[0.02170223370194435, -0.04093412682414055, -0...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Catalysis of the hydrolysis of ester linkages ...</td>
+      <td>[-0.00821786466985941, -0.23827922344207764, -...</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>5614</th>
+      <td>Any process that activates or increases the fr...</td>
+      <td>[0.053574178367853165, -0.080331951379776, -0....</td>
+    </tr>
+    <tr>
+      <th>5615</th>
+      <td>Any process that activates or increases the fr...</td>
+      <td>[0.015425608493387699, -0.013072511181235313, ...</td>
+    </tr>
+    <tr>
+      <th>5616</th>
+      <td>The chemical reactions and pathways involving ...</td>
+      <td>[0.0855507105588913, -0.05061568692326546, -0....</td>
+    </tr>
+    <tr>
+      <th>5617</th>
+      <td>The chemical reactions and pathways resulting ...</td>
+      <td>[0.11358797550201416, -0.13088946044445038, -0...</td>
+    </tr>
+    <tr>
+      <th>5618</th>
+      <td>The chemical reactions and pathways resulting ...</td>
+      <td>[0.11483287811279297, -0.15022939443588257, -0...</td>
+    </tr>
+  </tbody>
+</table>
+<p>5619 rows × 2 columns</p>
+</div></div><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 50.2 ms, sys: 38.5 ms, total: 88.7 ms
+Wall time: 203 ms
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+<span class="c1">## Calculate dinstance between all pairs of sentences in DF </span>
+<span class="n">e_col</span> <span class="o">=</span> <span class="s1">&#39;sentence_embedding_biobert&#39;</span>
+<span class="n">stored_model_path</span> <span class="o">=</span> <span class="s2">&quot;pipe_full_BP&quot;</span>
+<span class="n">pipe</span> <span class="o">=</span> <span class="n">nlu</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">path</span><span class="o">=</span><span class="n">stored_model_path</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 16.1 ms, sys: 4.45 ms, total: 20.6 ms
+Wall time: 2.96 s
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h3><b>Function:</b> Calculation of cosine similarity score.</h>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_sim_df_for_string</span><span class="p">(</span><span class="n">predictions</span><span class="p">,</span> <span class="n">e_col</span><span class="p">,</span> <span class="n">string_to_embed</span><span class="p">,</span> <span class="n">pipe</span><span class="o">=</span><span class="n">pipe</span><span class="p">):</span>
+
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Creates a Dataframe which has a `sim_score` column which describes the similarity with the `string_to_embed` variable.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      predictions: A DataFrame of predictions.</span>
+<span class="sd">      e_col: The name of the column in `predictions` that contains the embeddings.</span>
+<span class="sd">      string_to_embed: The string to embed.</span>
+<span class="sd">      pipe: A spaCy pipeline object.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">      A DataFrame with an additional `sim_score` column.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Put predictions vectors in matrix.</span>
+    <span class="n">embed_mat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">predictions</span><span class="p">[</span><span class="n">e_col</span><span class="p">]])</span>
+
+    <span class="c1"># Embed string input string.</span>
+    <span class="n">embedding</span> <span class="o">=</span> <span class="n">pipe</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">string_to_embed</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;sentence_embedding_from_disk&#39;</span><span class="p">]</span>
+
+    <span class="c1"># Replicate embedding for input string.</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">embedding</span><span class="p">,]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">))</span>
+
+    <span class="c1"># Compute cosine similarity.</span>
+    <span class="n">sim_mat</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">embed_mat</span><span class="p">)</span>
+
+    <span class="c1"># Write sim score.</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;sim_score&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sim_mat</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="c1"># Return df.</span>
+    <span class="k">return</span> <span class="n">df</span>
+
+<span class="n">get_sim_df_for_string</span><span class="p">(</span><span class="n">predictions</span><span class="p">,</span> <span class="n">e_col</span><span class="p">,</span> <span class="s2">&quot;Test test&quot;</span> <span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>GO</th>
+      <th>Name</th>
+      <th>Definition</th>
+      <th>Depth</th>
+      <th>sim_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>GO:0000002</td>
+      <td>mitochondrial genome maintenance.</td>
+      <td>The maintenance of the structure and integrity...</td>
+      <td>6</td>
+      <td>0.658170</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>GO:0000003</td>
+      <td>reproduction.</td>
+      <td>The production of new individuals that contain...</td>
+      <td>1</td>
+      <td>0.679071</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>GO:0000012</td>
+      <td>single strand break repair.</td>
+      <td>The repair of single strand breaks in DNA.</td>
+      <td>6</td>
+      <td>0.665612</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>GO:0000012</td>
+      <td>single strand break repair.</td>
+      <td>Repair of such breaks is mediated by the same ...</td>
+      <td>6</td>
+      <td>0.643082</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>GO:0000014</td>
+      <td>single-stranded DNA endodeoxyribonuclease acti...</td>
+      <td>Catalysis of the hydrolysis of ester linkages ...</td>
+      <td>8</td>
+      <td>0.631392</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>5614</th>
+      <td>GO:2001235</td>
+      <td>positive regulation of apoptotic signaling pat...</td>
+      <td>Any process that activates or increases the fr...</td>
+      <td>4</td>
+      <td>0.700227</td>
+    </tr>
+    <tr>
+      <th>5615</th>
+      <td>GO:2001280</td>
+      <td>positive regulation of unsaturated fatty acid ...</td>
+      <td>Any process that activates or increases the fr...</td>
+      <td>6</td>
+      <td>0.688193</td>
+    </tr>
+    <tr>
+      <th>5616</th>
+      <td>GO:2001289</td>
+      <td>lipid X metabolic process.</td>
+      <td>The chemical reactions and pathways involving ...</td>
+      <td>4</td>
+      <td>0.683334</td>
+    </tr>
+    <tr>
+      <th>5617</th>
+      <td>GO:2001294</td>
+      <td>malonyl-CoA catabolic process.</td>
+      <td>The chemical reactions and pathways resulting ...</td>
+      <td>5</td>
+      <td>0.644774</td>
+    </tr>
+    <tr>
+      <th>5618</th>
+      <td>GO:2001295</td>
+      <td>malonyl-CoA biosynthetic process.</td>
+      <td>The chemical reactions and pathways resulting ...</td>
+      <td>6</td>
+      <td>0.640183</td>
+    </tr>
+  </tbody>
+</table>
+<p>5619 rows × 5 columns</p>
+</div></div></div>
+</div>
+<div class="alert alert-block alert-info">
+    <h3><b>Function:</b> Loading document, xml or PubMed API.</h3>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+
+<span class="k">def</span> <span class="nf">query_go</span><span class="p">(</span><span class="n">query</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">Top</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> <span class="n">sim_cutoff</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.92</span><span class="p">,</span> <span class="n">Send</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;ALL&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">typing</span><span class="o">.</span><span class="n">Union</span><span class="p">[</span><span class="nb">list</span><span class="p">,</span> <span class="nb">bool</span><span class="p">]:</span>
+
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Queries the Gene Ontology (GO) database for terms that are similar to the given query.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      query: The query string.</span>
+<span class="sd">      Top: The number of top results to return.</span>
+<span class="sd">      sim_cutoff: The similarity cutoff.</span>
+<span class="sd">      Send: The type of results to send.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">      A list of GO terms that are similar to the query, or False if no results were found.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Get the similarity matrix between the query and the GO terms.</span>
+    <span class="n">sim_df</span> <span class="o">=</span> <span class="n">get_sim_df_for_string</span><span class="p">(</span><span class="n">predictions</span><span class="p">,</span> <span class="n">e_col</span><span class="p">,</span> <span class="n">query</span><span class="p">)</span>
+
+    <span class="c1"># Sort the similarity matrix by similarity score.</span>
+    <span class="n">df_res</span> <span class="o">=</span> <span class="n">sim_df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;sim_score&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:</span><span class="n">Top</span><span class="p">]</span>
+
+    <span class="c1"># Filter the results by similarity score.</span>
+    <span class="n">df_res</span> <span class="o">=</span> <span class="n">df_res</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">df_res</span><span class="p">[</span><span class="s1">&#39;sim_score&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">sim_cutoff</span><span class="p">]</span>
+
+    <span class="c1"># If no results were found, return False.</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_res</span><span class="p">):</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="c1"># Return the results.</span>
+    <span class="k">if</span> <span class="n">Send</span> <span class="o">==</span> <span class="s2">&quot;ALL&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="n">df_res</span><span class="p">[[</span><span class="s2">&quot;GO&quot;</span><span class="p">,</span> <span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;Definition&quot;</span><span class="p">,</span> <span class="s2">&quot;Depth&quot;</span><span class="p">,</span> <span class="s2">&quot;sim_score&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">())]</span>
+    <span class="k">elif</span> <span class="n">Send</span> <span class="o">==</span> <span class="s2">&quot;GO&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="n">df_res</span><span class="p">[[</span><span class="s2">&quot;GO&quot;</span><span class="p">,</span> <span class="s2">&quot;sim_score&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">())]</span>
+    <span class="k">elif</span> <span class="n">Send</span> <span class="o">==</span> <span class="s2">&quot;Name&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="n">df_res</span><span class="p">[[</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;sim_score&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">())]</span>
+    <span class="k">elif</span> <span class="n">Send</span> <span class="o">==</span> <span class="s2">&quot;Def&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="n">df_res</span><span class="p">[[</span><span class="s2">&quot;Definition&quot;</span><span class="p">,</span> <span class="s2">&quot;sim_score&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">())]</span>
+    <span class="k">elif</span> <span class="n">Send</span> <span class="o">==</span> <span class="s2">&quot;Depth&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="n">df_res</span><span class="p">[[</span><span class="s2">&quot;Depth&quot;</span><span class="p">,</span> <span class="s2">&quot;sim_score&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">tolist</span><span class="p">())]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Invalid value for `Send`.&quot;</span><span class="p">)</span>
+        
+<span class="c1"># query_go(&#39;Gonadoblastoma is defined as an abnormal growth of germ cells and sex cord elements on the gonad.&#39;)</span>
+<span class="c1"># query_go(&#39; regulate signal transduction events generated by G-protein coupled receptors&#39;, sim_cutoff=0.80)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 224 µs, sys: 112 µs, total: 336 µs
+Wall time: 44.3 µs
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h3><b>Function:</b> Lower case and uppercase lambda function</h3>
+    The given Python code defines two lambda functions: Lowerset and Upperset. Both functions take a set as input, convert all elements to lowercase or uppercase respectively, and return a new set containing the transformed elements.
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Define a lambda function LowerSet that transforms all elements in a set to lowercase</span>
+<span class="n">Lowerset</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">Set</span><span class="p">:</span> <span class="nb">set</span><span class="p">([</span><span class="n">i</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">Set</span><span class="p">])</span>
+
+<span class="c1"># Define a lambda function UpperSet that transforms all elements in a set to uppercase</span>
+<span class="n">Upperset</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">Set</span><span class="p">:</span> <span class="nb">set</span><span class="p">([</span><span class="n">i</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">Set</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h3><b>Function:</b> Loading Gene list from disk</h3>
+    The code reads a list of gene names from a file ("1.2_ATH_Gene_all.lst"), removes certain terms from the list, converts the list to a set, and then converts the set to a list of uppercase gene IDs.
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Read gene names from file and create a list of unique gene names</span>
+<span class="n">Gene_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;Auxiliary_Files/1.2_ATH_Gene_all.lst&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">i</span><span class="p">)]))</span>
+
+<span class="c1"># Print the number of genes and the first five genes in the list</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Total Genes in Human : </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">Gene_list</span><span class="p">)</span><span class="si">}</span><span class="s2"> </span><span class="se">\n</span><span class="s2"> </span><span class="si">{</span><span class="n">Gene_list</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1"># Remove certain terms from the list of genes</span>
+<span class="n">Gene_list</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">Gene_list</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">([</span><span class="s2">&quot;AND&quot;</span><span class="p">,</span> <span class="s2">&quot;AN&quot;</span><span class="p">,</span> <span class="s2">&quot;CAN&quot;</span><span class="p">,</span> <span class="s2">&quot;NOT&quot;</span><span class="p">,</span> <span class="s2">&quot;HAS&quot;</span><span class="p">,</span> <span class="s2">&quot;FACT&quot;</span><span class="p">,</span> 
+                                  <span class="s2">&quot;MIN&quot;</span><span class="p">,</span> <span class="s2">&quot;LATE&quot;</span><span class="p">,</span> <span class="s2">&quot;MAIN&quot;</span><span class="p">,</span> <span class="s2">&quot;RING&quot;</span><span class="p">,</span> <span class="s2">&quot;BP&quot;</span><span class="p">,</span> 
+                                  <span class="s2">&quot;POLAR&quot;</span><span class="p">,</span> <span class="s2">&quot;CO&quot;</span><span class="p">,</span> <span class="s2">&quot;NIH&quot;</span><span class="p">,</span> <span class="s2">&quot;LAB&quot;</span><span class="p">,</span> <span class="s2">&quot;GI&quot;</span><span class="p">,</span> <span class="s2">&quot;NSF&quot;</span><span class="p">,</span> 
+                                  <span class="s2">&quot;WAS&quot;</span><span class="p">,</span> <span class="s2">&quot;MICE&quot;</span><span class="p">])</span>
+
+<span class="c1"># Convert the set of genes to a list, and then convert it to uppercase using the `Upperset` function</span>
+<span class="n">Gene_list</span> <span class="o">=</span> <span class="n">Upperset</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">Gene_list</span><span class="p">)))</span>
+
+<span class="c1"># Print the number of gene IDs and the last five gene IDs in the list</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Total IDs in ATH : </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">Gene_list</span><span class="p">)</span><span class="si">}</span><span class="s2"> </span><span class="se">\n</span><span class="s2"> </span><span class="si">{</span><span class="nb">list</span><span class="p">(</span><span class="n">Gene_list</span><span class="p">)[</span><span class="o">-</span><span class="mi">5</span><span class="p">:]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Total Genes in Human : 33651 
+ [&#39;ATPEX12&#39;, &#39;ATPMEI1&#39;, &#39;COR413-TM1&#39;, &#39;AT3G61440&#39;, &#39;GA3OX2&#39;]
+Total IDs in ATH : 33589 
+ [&#39;TAF6B1&#39;, &#39;HAP2C&#39;, &#39;AT3G10700&#39;, &#39;AG&#39;, &#39;ATARI11&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h3><b>Function:</b> To check if paragraph contains any of the <i>Arabidopsis thaliana</i> genes</h3>
+    The code reads a list of gene names from a file ("1.2_ATH_Gene_all.lst"), removes certain terms from the list, converts the list to a set, and then converts the set to a list of uppercase gene IDs.
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+
+<span class="k">def</span> <span class="nf">para_pass</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">Print_list</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Takes a text paragraph and returns a boolean value indicating whether or not any genes were found in the text.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">    text: The text paragraph to analyze.</span>
+<span class="sd">    Print_list: If True, the list of genes found in the text will be printed.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">    A boolean value indicating whether or not any genes were found in the text.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Tokenize the text into words.</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="n">chain</span><span class="o">.</span><span class="n">from_iterable</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">word_tokenize</span><span class="p">,</span> <span class="n">sent_tokenize</span><span class="p">(</span><span class="n">text</span><span class="p">)))</span>
+
+    <span class="c1"># Create a frequency distribution of the words.</span>
+    <span class="n">freq</span> <span class="o">=</span> <span class="n">FreqDist</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="o">.</span><span class="n">casefold</span><span class="p">,</span> <span class="n">words</span><span class="p">))</span>
+
+    <span class="c1"># Convert the frequency distribution to a set of words.</span>
+    <span class="n">word_bag</span> <span class="o">=</span> <span class="n">Upperset</span><span class="p">(</span><span class="n">freq</span><span class="p">)</span>
+
+    <span class="c1"># Intersect the set of words with the set of genes.</span>
+    <span class="n">intersection</span> <span class="o">=</span> <span class="n">word_bag</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">Gene_list</span><span class="p">)</span>
+
+    <span class="c1"># If the intersection is not empty, return True.</span>
+    <span class="k">if</span> <span class="n">intersection</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">Print_list</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">intersection</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">intersection</span>
+
+    <span class="c1"># Otherwise, return False.</span>
+    <span class="k">return</span> <span class="kc">False</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 67 µs, sys: 36 µs, total: 103 µs
+Wall time: 18.6 µs
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h3><b>Function:</b> To plot summary table</h3>
+    This is a Python function named Plot_data that plots the data in the given Data dictionary. It takes in one argument, a dictionary called Data, and returns a networkx graph of the data. 
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">Plot_data</span><span class="p">(</span><span class="n">Data</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Plots the data in the given `Data` dictionary.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">    Data: A dictionary containing the following keys:</span>
+<span class="sd">      * `Meta_info`: A dictionary containing the metadata for the paper.</span>
+<span class="sd">      * `Search_info`: A list of dictionaries, each of which contains the results of a search for a gene.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">    A networkx graph of the data.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># Get the metadata for the paper.</span>
+    <span class="n">Meta</span> <span class="o">=</span> <span class="n">Data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;Meta_info&quot;</span><span class="p">]</span>
+    <span class="c1">#print(Meta)</span>
+    <span class="n">values</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">&#39;&lt;b&gt;Paper Title&lt;/b&gt;&#39;</span><span class="p">,</span> <span class="s1">&#39;Species&#39;</span><span class="p">,</span> <span class="s1">&#39;pmid&#39;</span><span class="p">,</span> <span class="s1">&#39;PMC&#39;</span><span class="p">,</span> <span class="s1">&#39;DOI&#39;</span><span class="p">],</span>
+              <span class="p">[</span><span class="s1">&#39;&lt;b&gt;&#39;</span> <span class="o">+</span> <span class="n">Meta</span><span class="p">[</span><span class="s1">&#39;Title&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;&lt;/b&gt;&quot;</span><span class="p">,</span> <span class="n">Meta</span><span class="p">[</span><span class="s1">&#39;Species&#39;</span><span class="p">],</span> <span class="n">Meta</span><span class="p">[</span><span class="s1">&#39;pmid&#39;</span><span class="p">],</span> <span class="n">Meta</span><span class="p">[</span><span class="s1">&#39;pmc&#39;</span><span class="p">],</span> <span class="n">Meta</span><span class="p">[</span><span class="s1">&#39;DOI&#39;</span><span class="p">]]]</span>
+
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">[</span><span class="n">go</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span>
+      <span class="n">columnorder</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span>
+      <span class="n">columnwidth</span> <span class="o">=</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span><span class="mi">400</span><span class="p">],</span>
+      <span class="n">header</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+        <span class="n">values</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">&#39;&lt;b&gt;Article information&lt;/b&gt;&#39;</span><span class="p">],</span>
+                      <span class="p">[</span><span class="s1">&#39;&lt;b&gt;Description&lt;/b&gt;&#39;</span><span class="p">]],</span>
+        <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;darkslategray&#39;</span><span class="p">,</span>
+        <span class="n">fill_color</span><span class="o">=</span><span class="s1">&#39;#144B39&#39;</span><span class="p">,</span>
+        <span class="n">align</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;left&#39;</span><span class="p">,</span><span class="s1">&#39;center&#39;</span><span class="p">],</span>
+        <span class="n">font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">),</span>
+        <span class="n">height</span><span class="o">=</span><span class="mi">20</span>
+      <span class="p">),</span>
+      <span class="n">cells</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">values</span><span class="o">=</span><span class="n">values</span><span class="p">,</span>
+        <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;darkslategray&#39;</span><span class="p">,</span>
+        <span class="n">fill</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;#FFD400&#39;</span><span class="p">,</span> <span class="s1">&#39;white&#39;</span><span class="p">]),</span>
+        <span class="n">align</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;left&#39;</span><span class="p">,</span> <span class="s1">&#39;left&#39;</span><span class="p">],</span>
+        <span class="n">font_size</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span>
+        <span class="n">height</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+        <span class="p">)</span>
+    <span class="p">])</span>
+
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">175</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+    <span class="c1">########################</span>
+
+    <span class="c1">########################</span>
+    <span class="n">Dic_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">Data</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="c1">#print(i)</span>
+        <span class="n">Res</span> <span class="o">=</span> <span class="n">Data</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;Search_info&quot;</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">Res</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">Res</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">g</span> <span class="ow">in</span> <span class="n">Data</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s2">&quot;Genes&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;;&quot;</span><span class="p">):</span>
+                    <span class="n">Dic</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Genes&quot;</span><span class="p">:</span><span class="n">g</span><span class="p">,</span> <span class="s2">&quot;GO&quot;</span><span class="p">:</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;GO&quot;</span><span class="p">],</span> <span class="s2">&quot;Name&quot;</span><span class="p">:</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;GO_Name&quot;</span><span class="p">],</span> <span class="s2">&quot;Score&quot;</span><span class="p">:</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;Score&quot;</span><span class="p">],</span> <span class="s2">&quot;Depth&quot;</span><span class="p">:</span><span class="n">s</span><span class="p">[</span><span class="s2">&quot;Depth&quot;</span><span class="p">]}</span>
+                    <span class="n">Dic_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Dic</span><span class="p">)</span>
+
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">Dic_list</span><span class="p">)</span>
+    <span class="n">df_uniq</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">keep</span><span class="o">=</span><span class="s2">&quot;first&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">df_uniq</span><span class="o">.</span><span class="n">empty</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;No Human genes found or GO mapped!!</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="k">return</span>
+
+
+    <span class="c1">######################</span>
+    <span class="c1"># Plot Bipartite Graph</span>
+    <span class="c1">######################</span>
+    <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">from_pandas_edgelist</span><span class="p">(</span><span class="n">df_uniq</span><span class="p">,</span> <span class="s2">&quot;Genes&quot;</span><span class="p">,</span> <span class="s2">&quot;GO&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="s1">&#39;Score&#39;</span><span class="p">])</span>
+    <span class="n">G</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;PhenoMiner&quot;</span>
+    <span class="n">color_map</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">G</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">node</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;GO:&quot;</span><span class="p">):</span>
+            <span class="n">color_map</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;#80BC00&#39;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span> 
+            <span class="n">color_map</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;#FFD400&#39;</span><span class="p">)</span>
+
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">top</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">bipartite</span><span class="o">.</span><span class="n">sets</span><span class="p">(</span><span class="n">G</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Warning: AmbiguousSolution&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">G</span>
+    
+    <span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">bipartite_layout</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">top</span><span class="p">)</span>
+
+    <span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="n">pos</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="n">color_map</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+            <span class="n">verticalalignment</span><span class="o">=</span><span class="s1">&#39;bottom&#39;</span><span class="p">,</span> <span class="n">node_size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">font_size</span> <span class="o">=</span> <span class="mi">12</span><span class="p">)</span>
+
+    <span class="c1">######################</span>
+
+
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">[</span><span class="n">go</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span>
+    <span class="n">header</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">df_uniq</span><span class="o">.</span><span class="n">columns</span><span class="p">),</span>
+                <span class="n">fill_color</span><span class="o">=</span><span class="s1">&#39;#144B39&#39;</span><span class="p">,</span> 
+                <span class="n">font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">),</span>
+                <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;#FFD400&#39;</span><span class="p">,</span>
+                <span class="n">align</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">),</span>
+    <span class="n">cells</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="n">df_uniq</span><span class="o">.</span><span class="n">Genes</span><span class="p">,</span> <span class="n">df_uniq</span><span class="o">.</span><span class="n">GO</span><span class="p">,</span> <span class="n">df_uniq</span><span class="o">.</span><span class="n">Name</span><span class="p">,</span> <span class="n">df_uniq</span><span class="o">.</span><span class="n">Score</span><span class="p">,</span> <span class="n">df_uniq</span><span class="o">.</span><span class="n">Depth</span><span class="p">],</span>
+               <span class="n">fill_color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span> 
+               <span class="n">font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;#144B39&#39;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">),</span> 
+               <span class="n">line_color</span><span class="o">=</span><span class="s1">&#39;#80BC00&#39;</span><span class="p">,</span>
+               <span class="n">align</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">))</span>
+                         <span class="p">])</span>
+
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">margin</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">t</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">r</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+    
+    <span class="k">return</span> <span class="n">G</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h3><b>Function:</b> To split document into Paragraphs and lines.</h3>
+    The given function is a python function named read_pubmed. This function accepts five arguments named File, Method, sim_cutoff, Organism, and Print.
+<p>File is a mandatory argument that specifies the name of the file to be read. Method is an optional argument that specifies the method to be used to read the file. If this argument is not specified, a warning message is displayed that mentions the options to read the file. sim_cutoff is another optional argument that sets the threshold score for the semantic similarity score, with a default value of 0.92. Organism is a list of organisms to search in the document, with a default value of [‘Arabidopsis’, ‘thaliana’, ‘A. thaliana’, ‘thaliana’, ‘A. thaliana’]. Finally, Print is an optional boolean argument that specifies whether to print the output or not, with a default value of True.</p>
+<p>The function first checks whether the Method argument is set or not. If not, it will display a warning message about the options for this argument and return False. Then it checks whether the whole body is accessible or not.</p>
+<p>The function then uses the Beautifulsoup module to split the document into paragraphs. If the Method is set to Offline, it reads the file using the open function and stores the data in the data variable. It then uses Beautifulsoup to parse the data and stores the result in the Bs_data variable.</p>
+<p>If the Method is set to PMC, it replaces the “PMC” string from the File argument with an empty string and constructs a URL to fetch the file from the PubMed Central database. It then uses the requests.get function to fetch the file from the URL and stores the result in the data variable. It then uses Beautifulsoup to parse the data and stores the result in the Bs_data variable. If the full text is not accessible, a warning message is displayed, and searching is limited to the abstract only.</p>
+<p>The function then extracts metadata such as the organism, title, PMCID, PMID, and DOI from the document using Beautifulsoup. It then processes each paragraph in the document and searches for gene-related information in it. It uses the query_go function to search for gene-related information and if found, it adds the gene-related information to a list of search information. It then creates a dictionary containing information about the paragraph, including its number, genes, and search information, and appends this dictionary to a list of dictionaries.</p>
+<p>Finally, the function checks if the list of dictionaries is not empty. If it is not empty and the Print argument is set to True, it prints the list of dictionaries in JSON format. Otherwise, it returns None.</p>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+<span class="n">title_meta</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+
+
+<span class="k">def</span> <span class="nf">read_pubmed</span><span class="p">(</span><span class="n">File</span><span class="p">,</span> <span class="n">Method</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">sim_cutoff</span> <span class="o">=</span> <span class="mf">0.92</span><span class="p">,</span> <span class="n">Organism</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Arabidopsis&#39;</span><span class="p">,</span> <span class="s1">&#39;thaliana&#39;</span><span class="p">,</span> <span class="s1">&#39;A. thaliana&#39;</span><span class="p">,</span> <span class="s1">&#39;thaliana&#39;</span><span class="p">,</span> <span class="s1">&#39;A. thaliana&#39;</span><span class="p">,],</span> 
+                <span class="n">Print</span> <span class="o">=</span> <span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">      Reads a PubMed file and returns a list of dictionaries, each of which contains the following keys:</span>
+<span class="sd">        * `Meta_info`: A dictionary containing the metadata for the paper.</span>
+<span class="sd">        * `Para_info`: A list of dictionaries, each of which contains the information for a paragraph.</span>
+
+<span class="sd">      Args:</span>
+<span class="sd">        File: The path to the PubMed file.</span>
+<span class="sd">        Method: The method to use to read the file. Can be `&quot;Offline&quot;` to read an offline XML file, or `&quot;PMC&quot;` to read an online file using the given PMC ID.</span>
+<span class="sd">        sim_cutoff: The similarity cutoff to use when searching for genes in the text.</span>
+<span class="sd">        Organism: A list of strings containing the names of the organisms to search for.</span>
+<span class="sd">        Print: A boolean value indicating whether or not to print status messages.</span>
+
+<span class="sd">      Returns:</span>
+<span class="sd">        A list of dictionaries, each of which contains the metadata and information for a paragraph in the PubMed file.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+
+    
+    <span class="c1">#####################################################</span>
+    <span class="c1"># Check if Whole body is accessible</span>
+    <span class="c1">#####################################################</span>
+    <span class="n">fh</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;temp.del&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">Method</span><span class="p">:</span>
+        <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;Warning Message: </span>
+<span class="s2">                      Method not set</span>
+<span class="s2">                      Options:</span>
+<span class="s2">                      </span><span class="se">\t</span><span class="s2">Offline : Reads offline xml file.</span>
+<span class="s2">                      </span><span class="se">\t\t</span><span class="s2">  Example : read_pubmed(&#39;./manuscript/PMC004xxxxxx/PMC4000261.xml&#39;</span>
+<span class="s2">                      </span><span class="se">\t</span><span class="s2">Online  : Reads online file using given PMC ID</span>
+<span class="s2">                      </span><span class="se">\t\t</span><span class="s2">  read_pubmed(&#39;4304705&#39;)</span>
+<span class="s2">                      &quot;&quot;&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">False</span>
+    
+    
+    <span class="c1">#####################################################</span>
+    <span class="c1"># Use Beautifulsoup for split doucment in para</span>
+    <span class="c1">#####################################################    </span>
+    <span class="k">if</span> <span class="n">Method</span> <span class="o">==</span> <span class="s2">&quot;Offline&quot;</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">File</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+        <span class="n">Bs_data</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="s2">&quot;html.parser&quot;</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="n">Method</span> <span class="o">==</span> <span class="s2">&quot;PMC&quot;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">File</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;PMC&quot;</span><span class="p">):</span>
+            <span class="n">File</span> <span class="o">=</span> <span class="n">File</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;PMC&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="n">URL</span> <span class="o">=</span> <span class="s2">&quot;https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&amp;id=&quot;</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">File</span><span class="p">)</span> <span class="o">+</span><span class="s2">&quot;&amp;tool=my_tool&amp;email=my_email@example.com&quot;</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">URL</span><span class="p">)</span>
+        <span class="n">Bs_data</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s2">&quot;html.parser&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">Bs_data</span><span class="o">.</span><span class="n">body</span> <span class="ow">and</span> <span class="n">Bs_data</span><span class="o">.</span><span class="n">abstract</span><span class="p">:</span>
+            <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="s2">&quot;Full text is not accessible, searching is limited to &#39;Abstract&#39; only!!!</span><span class="se">\n</span><span class="s2"> Try other method type like URL or Offline XML.&quot;</span><span class="p">)</span>
+            
+    <span class="c1">#####################################################</span>
+    <span class="c1"># Mate info from the document</span>
+    <span class="c1">#####################################################        </span>
+    <span class="c1"># Organism</span>
+    <span class="n">Species</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">Sp</span> <span class="ow">in</span> <span class="n">Organism</span><span class="p">:</span>
+        <span class="n">Sp_text</span> <span class="o">=</span> <span class="n">Bs_data</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">Sp</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">Sp_text</span><span class="p">:</span>
+            <span class="c1">#print(Sp)</span>
+            <span class="n">Species</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Sp</span><span class="p">)</span>
+    <span class="n">Species</span> <span class="o">=</span> <span class="s2">&quot;; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">Species</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">Species</span><span class="p">):</span>
+        <span class="n">Species</span> <span class="o">=</span> <span class="s2">&quot;**&quot;</span>
+        <span class="c1">#return False</span>
+    <span class="k">if</span> <span class="n">Print</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Species = </span><span class="si">{</span><span class="n">Species</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    
+    
+    
+    <span class="c1"># Metadata</span>
+    <span class="n">Title</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="n">pmid</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="n">pmc</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="n">doi</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="n">b_meta</span> <span class="o">=</span> <span class="n">Bs_data</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;article-id&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">b_meta</span><span class="p">:</span>
+        <span class="c1">#print(m)</span>
+        <span class="k">if</span> <span class="s2">&quot;pmid&quot;</span> <span class="ow">in</span> <span class="n">m</span><span class="o">.</span><span class="n">attrs</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+            <span class="n">pmid</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">text</span>
+            <span class="c1">#print(m.text)</span>
+
+        <span class="k">if</span> <span class="s2">&quot;pmc&quot;</span> <span class="ow">in</span> <span class="n">m</span><span class="o">.</span><span class="n">attrs</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+            <span class="n">pmc</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">text</span>
+            <span class="c1">#print(m.text)</span>
+
+        <span class="k">if</span> <span class="s2">&quot;doi&quot;</span> <span class="ow">in</span> <span class="n">m</span><span class="o">.</span><span class="n">attrs</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+            <span class="n">doi</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">text</span>
+            <span class="c1">#print(m.text)</span>
+
+
+    <span class="n">Title</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">Bs_data</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title-group&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">contents</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;&lt;article-title&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;&lt;/article-title&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="c1">#print(Title)</span>
+
+
+    <span class="n">b_unique</span> <span class="o">=</span> <span class="n">Bs_data</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;p&#39;</span><span class="p">)</span>
+
+    <span class="n">Unkown_para_num</span> <span class="o">=</span> <span class="mi">1</span>
+
+    <span class="n">List_dic</span> <span class="o">=</span> <span class="p">[{</span><span class="s2">&quot;Meta_info&quot;</span><span class="p">:{</span><span class="s2">&quot;Title&quot;</span><span class="p">:</span><span class="n">Title</span><span class="p">,</span> <span class="s2">&quot;Species&quot;</span><span class="p">:</span><span class="n">Species</span><span class="p">,</span> <span class="s2">&quot;pmid&quot;</span><span class="p">:</span><span class="n">pmid</span><span class="p">,</span> <span class="s2">&quot;pmc&quot;</span><span class="p">:</span><span class="n">pmc</span><span class="p">,</span> <span class="s2">&quot;DOI&quot;</span><span class="p">:</span><span class="n">doi</span><span class="p">}}]</span>
+
+    <span class="c1">#####################################################</span>
+    <span class="c1"># Process para </span>
+    <span class="c1">#####################################################    </span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">b_unique</span><span class="p">:</span>
+        <span class="c1">#print(i.name, i.attrs,i.text, &quot;##########&quot;)</span>
+        <span class="n">para_ID</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="c1">#Text = i.text</span>
+        <span class="k">if</span> <span class="s1">&#39;id&#39;</span> <span class="ow">in</span> <span class="n">i</span><span class="o">.</span><span class="n">attrs</span><span class="p">:</span>
+            <span class="c1">#print(i.attrs[&#39;id&#39;], &quot;||||||||||||||||&quot;)</span>
+            <span class="n">para_ID</span> <span class="o">=</span> <span class="n">i</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1">#print(&quot;U&quot; + str(Unkown_para_num), &quot;##########&quot;)</span>
+            <span class="n">para_ID</span> <span class="o">=</span> <span class="s2">&quot;U&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">Unkown_para_num</span><span class="p">)</span>
+            <span class="n">Unkown_para_num</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="c1">#####################################################</span>
+        <span class="c1"># Split para into lines</span>
+        <span class="c1">#####################################################</span>
+        <span class="k">if</span> <span class="n">para_pass</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">):</span>
+            <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Para_number&quot;</span><span class="p">:</span><span class="n">para_ID</span><span class="p">,</span> <span class="s2">&quot;Genes&quot;</span><span class="p">:</span><span class="s2">&quot;;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">para_pass</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">)),</span> <span class="s2">&quot;Para&quot;</span><span class="p">:</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">}</span>
+            <span class="c1">#dic = {&quot;Species&quot;:Species, &quot;pmid&quot;:pmid, &quot;pmc&quot;:pmc, &quot;Para_number&quot;:para_ID, &quot;Genes&quot;:&quot;;&quot;.join(para_pass(i.text)), &quot;Para&quot;:i.text, &quot;DOI&quot;:doi}</span>
+            
+            <span class="c1">#print(pmid, pmc, para_ID, &quot;;&quot;.join(para_pass(i.text)), i.text, doi, sep=&quot;\t&quot;)</span>
+            <span class="c1">#print(&quot;|_________________|&quot;, json.dumps(dic, indent=4, default=str), i.text, file=fh)</span>
+            <span class="n">Search_info</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">sent</span> <span class="ow">in</span> <span class="n">sent_tokenize</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">text</span><span class="p">):</span>
+                <span class="n">query_res</span> <span class="o">=</span> <span class="n">query_go</span><span class="p">(</span><span class="n">sent</span><span class="p">,</span> <span class="n">sim_cutoff</span> <span class="o">=</span> <span class="n">sim_cutoff</span><span class="p">)</span>
+                
+                <span class="k">if</span> <span class="n">query_res</span><span class="p">:</span>
+                    <span class="c1">#print(query_res)</span>
+                    <span class="k">for</span> <span class="n">q</span> <span class="ow">in</span> <span class="n">query_res</span><span class="p">:</span>
+                        <span class="n">query_dic</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Sentance&quot;</span><span class="p">:</span><span class="n">sent</span><span class="p">,</span>
+                                     <span class="s2">&quot;GO&quot;</span><span class="p">:</span><span class="n">query_res</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> 
+                                     <span class="s2">&quot;GO_Name&quot;</span><span class="p">:</span><span class="n">query_res</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span> 
+                                     <span class="s2">&quot;Definition&quot;</span><span class="p">:</span><span class="n">query_res</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span> 
+                                     <span class="s2">&quot;Depth&quot;</span><span class="p">:</span><span class="n">query_res</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">3</span><span class="p">],</span>
+                                     <span class="s2">&quot;Score&quot;</span><span class="p">:</span><span class="n">query_res</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">4</span><span class="p">]</span>
+                                    <span class="p">}</span>
+                        <span class="n">Search_info</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">query_dic</span><span class="p">)</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="n">sent</span><span class="p">,</span> <span class="n">dic</span><span class="p">[</span><span class="s2">&quot;Genes&quot;</span><span class="p">],</span> <span class="n">file</span><span class="o">=</span><span class="n">fh</span><span class="p">)</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="n">query_dic</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">fh</span><span class="p">)</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&gt;&quot;</span> <span class="o">*</span> <span class="mi">10</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">fh</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;#&quot;</span> <span class="o">*</span> <span class="mi">10</span><span class="p">,</span> <span class="n">file</span> <span class="o">=</span> <span class="n">fh</span><span class="p">)</span>
+            <span class="n">dic</span><span class="p">[</span><span class="s2">&quot;Search_info&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">Search_info</span>
+            <span class="n">List_dic</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>
+            
+        
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">List_dic</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">Print</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">List_dic</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="nb">str</span><span class="p">))</span>
+            <span class="c1">#print(json.dumps(List_dic, indent=4, default=str), file=fh)</span>
+        <span class="k">return</span> <span class="n">List_dic</span>
+    
+    <span class="n">fh</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="k">return</span> <span class="kc">False</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 7.39 µs
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="call-function-to-predict-gos">
+<h2>Call function to predict GOs<a class="headerlink" href="#call-function-to-predict-gos" title="Permalink to this heading">#</a></h2>
+<div class="alert alert-block alert-danger">
+    <h2><b>Example 1 (Bad):</b> PMC1459476</h2>
+    Two Isoforms of a Divalent Metal Transporter (DMT1) in Schistosoma mansoni Suggest a Surface-associated Pathway for Iron Absorption in Schistosomes*. 
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+<span class="n">df_temp</span> <span class="o">=</span> <span class="n">read_pubmed</span><span class="p">(</span><span class="s1">&#39;Example_data/PMC1459476.xml&#39;</span><span class="p">,</span> 
+                      <span class="n">sim_cutoff</span><span class="o">=</span><span class="mf">0.90</span> <span class="p">,</span><span class="n">Print</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">Method</span> <span class="o">=</span> <span class="s2">&quot;Offline&quot;</span><span class="p">)</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">Plot_data</span><span class="p">(</span><span class="n">df_temp</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/50c1915da13a8069d70c17a49be04f20c366417322cb63f0d2b4ab579faccd2c.svg" src="_images/50c1915da13a8069d70c17a49be04f20c366417322cb63f0d2b4ab579faccd2c.svg" /><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Warning: AmbiguousSolution
+CPU times: user 3min 5s, sys: 2min 2s, total: 5min 7s
+Wall time: 1min 11s
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-success">
+    <h2><b>Example 2 (Good):</b> PMC1802096</h2>
+    MOR1/GEM1 plays an essential role in the plant-specific cytokinetic phragmoplast. 
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+<span class="c1">#####################################################</span>
+<span class="c1"># Input method: Negative example</span>
+<span class="c1">#####################################################</span>
+<span class="n">Out_def</span> <span class="o">=</span> <span class="n">read_pubmed</span><span class="p">(</span><span class="s1">&#39;Example_data/PMC1802096.xml&#39;</span><span class="p">,</span> 
+                      <span class="n">Print</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">Method</span> <span class="o">=</span> <span class="s2">&quot;Offline&quot;</span><span class="p">,</span> <span class="n">sim_cutoff</span><span class="o">=</span><span class="mf">0.935</span><span class="p">)</span>
+<span class="n">Plot_data</span><span class="p">(</span><span class="n">Out_def</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/25cee5f181aabe407f992a5cbac8b9b122cf340160498d993eedac4f69766d22.svg" src="_images/25cee5f181aabe407f992a5cbac8b9b122cf340160498d993eedac4f69766d22.svg" /><img alt="_images/61c32dead987b38ab2c317a0413baffb87e16b76495c56e5420f9a9b2c8a90b6.svg" src="_images/61c32dead987b38ab2c317a0413baffb87e16b76495c56e5420f9a9b2c8a90b6.svg" /><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 1min 49s, sys: 1min 14s, total: 3min 4s
+Wall time: 37 s
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;networkx.classes.graph.Graph at 0x2aab3b2801f0&gt;
+</pre></div>
+</div>
+<img alt="_images/58059e9734bbf0c070d6ff87fb37905d16d8e69f6f01198dc0d93240a33d2535.png" src="_images/58059e9734bbf0c070d6ff87fb37905d16d8e69f6f01198dc0d93240a33d2535.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">session_info</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">html</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>-----
+bs4                 4.11.1
+matplotlib          3.6.2
+networkx            2.8.8
+nltk                3.8
+nlu                 4.0.0
+numpy               1.23.5
+pandas              1.5.2
+plotly              5.3.1
+requests            2.28.1
+seaborn             0.12.2
+session_info        1.0.0
+sklearn             1.2.0
+tqdm                4.49.0
+-----
+IPython             8.7.0
+jupyter_client      7.4.8
+jupyter_core        5.1.1
+-----
+Python 3.8.15 | packaged by conda-forge | (default, Nov 22 2022, 08:49:35) [GCC 10.4.0]
+Linux-3.10.0-1160.24.1.el7.x86_64-x86_64-with-glibc2.10
+-----
+Session information updated at 2023-04-13 16:08
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "sparknlp"
+        },
+        kernelOptions: {
+            name: "sparknlp",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'sparknlp'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="2_GO_term_embedding.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">GO Terms Defination Embedding</p>
+      </div>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#load-java-8-and-set-java-home-directory">Load Java 8 and Set Java home directory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#call-function-to-predict-gos">Call function to predict GOs</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Nilesh Kumar (Ph.D.)
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,941 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>GO Terms Defination Embedding &#8212; PATHAK</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '2_GO_term_embedding';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Pathak: Example" href="3_PhenoMiner_plant.html" />
+    <link rel="prev" title="Preprocessing of Ontology file" href="1_GO.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/POTFUL.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/POTFUL.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    PATHAK
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Installation%20and%20environment%20setup.html">Installation and environment setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1_GO.html">Preprocessing of Ontology file</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">GO Terms Defination Embedding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_PhenoMiner_plant.html">Pathak: Example</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F2_GO_term_embedding.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/2_GO_term_embedding.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>GO Terms Defination Embedding</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="go-terms-defination-embedding">
+<h1>GO Terms Defination Embedding<a class="headerlink" href="#go-terms-defination-embedding" title="Permalink to this heading">#</a></h1>
+<div>
+<img src="https://www.johnsnowlabs.com/wp-content/uploads/2019/07/johnsnowlabs_logo.png" width="200"/>
+</div>
+<p><strong>NLU</strong>:State of the Art Text Mining in Python
+<strong>The Simplicity of Python, the Power of Spark NLP</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-4 sd-g-xs-4 sd-g-sm-4 sd-g-md-4 sd-g-lg-4 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Input File</div>
+<p class="sd-card-text"><strong>GO_BP_Ontology_corups.tsv</strong>,</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Input Folder</div>
+<p class="sd-card-text"><strong>None</strong></p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Output File</div>
+<p class="sd-card-text"><strong>GO_BP_Ontology_corups_Filtered.tsv</strong>,
+<strong>predictions_full_BP.pickle</strong></p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Output Folder</div>
+<p class="sd-card-text"><strong>pipe_full_BP</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h2>🐍Load Python libraries</h2>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">nlu</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pickle</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-warning">
+    <h2>Make sure java is loaded</h2>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>module load Java/1.8.0_202
+<span class="o">!</span>java -version
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>openjdk version &quot;1.8.0_332&quot;
+OpenJDK Runtime Environment (build 1.8.0_332-b09)
+OpenJDK 64-Bit Server VM (build 25.332-b09, mixed mode)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h2>Set Java JAVA_HOME and PATH variable</h2>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;JAVA_HOME&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;JAVA_HOME&quot;</span><span class="p">]</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;PATH&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;JAVA_HOME&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;/bin:&quot;</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;PATH&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">KeyError</span><span class="g g-Whitespace">                                  </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;JAVA_HOME&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;JAVA_HOME&quot;</span><span class="p">]</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;PATH&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;JAVA_HOME&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;/bin:&quot;</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;PATH&quot;</span><span class="p">]</span>
+
+<span class="nn">File ~/.conda/envs/sparknlp/lib/python3.8/os.py:675,</span> in <span class="ni">_Environ.__getitem__</span><span class="nt">(self, key)</span>
+<span class="g g-Whitespace">    </span><span class="mi">672</span>     <span class="n">value</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">encodekey</span><span class="p">(</span><span class="n">key</span><span class="p">)]</span>
+<span class="g g-Whitespace">    </span><span class="mi">673</span> <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">674</span>     <span class="c1"># raise KeyError with the original key value</span>
+<span class="ne">--&gt; </span><span class="mi">675</span>     <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="n">key</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+<span class="g g-Whitespace">    </span><span class="mi">676</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">decodevalue</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+
+<span class="ne">KeyError</span>: &#39;JAVA_HOME&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Check if Java home is set!</p>
+<p>print(os.environ[“JAVA_HOME”])</p>
+</div>
+<hr class="docutils" />
+<div class="alert alert-block alert-info">
+Load ontology file
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;GO_BP_Ontology_corups.tsv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(35228, 4)
+</pre></div>
+</div>
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>GO</th>
+      <th>Name</th>
+      <th>Definition</th>
+      <th>Depth</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>GO:0000001</td>
+      <td>mitochondrion inheritance.</td>
+      <td>The distribution of mitochondria, including th...</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>GO:0000002</td>
+      <td>mitochondrial genome maintenance.</td>
+      <td>The maintenance of the structure and integrity...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>GO:0000003</td>
+      <td>reproduction.</td>
+      <td>The production of new individuals that contain...</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>GO:0000006</td>
+      <td>high-affinity zinc transmembrane transporter a...</td>
+      <td>Enables the transfer of zinc ions (Zn2+) from ...</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>GO:0000006</td>
+      <td>high-affinity zinc transmembrane transporter a...</td>
+      <td>In high-affinity transport the transporter is ...</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="alert alert-block alert-warning">
+    <h2>Filter GO terms which are not in TAIR database to focus only on the Plant associated GO terms</h2>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">TAIR_terms</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;Auxiliary_Files/TAIR_GOTERMS.txt&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">TAIR_terms</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>7589
+</pre></div>
+</div>
+</div>
+</div>
+<p>Save filter GO term data</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">GO</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">TAIR_terms</span><span class="p">)]</span>
+<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;GO_BP_Ontology_corups_Filtered.tsv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(5619, 4)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h2>Load model and calclulate sentence_embedding_biobert</h2>
+</div>
+<div class="alert alert-block alert-info">
+    <h3>Set Python env variables</h3>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;PYSPARK_PYTHON&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/home/nileshkr/.conda/envs/sparknlp/bin/python3.8&#39;</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;PYSPARK_DRIVER_PYTHON&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/home/nileshkr/.conda/envs/sparknlp/bin/python3.8&#39;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h2>Load BioBERT Sentence Embeddings (Pubmed)</h2>
+    This model contains a pre-trained weights of BioBERT, a language representation model for biomedical domain, especially designed for biomedical text mining tasks such as biomedical named entity recognition, relation extraction, question answering, etc. 
+</div>
+<p>The details are described in the paper <a class="reference external" href="https://arxiv.org/abs/1901.08746">“BioBERT: a pre-trained biomedical language representation model for biomedical text mining”</a>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+<span class="n">pipe</span> <span class="o">=</span> <span class="n">nlu</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;en.embed_sentence.biobert.pubmed_base_cased&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>:: loading settings :: url = jar:file:/data/user/home/nileshkr/.conda/envs/sparknlp/lib/python3.8/site-packages/pyspark/jars/ivy-2.5.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Ivy Default Cache set to: /home/nileshkr/.ivy2/cache
+The jars for the packages stored in: /home/nileshkr/.ivy2/jars
+com.johnsnowlabs.nlp#spark-nlp_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-9bc5a76e-c682-46a2-99af-60b6b08aedcf;1.0
+	confs: [default]
+	found com.johnsnowlabs.nlp#spark-nlp_2.12;4.0.2 in central
+	found com.typesafe#config;1.4.2 in central
+	found org.rocksdb#rocksdbjni;6.29.5 in central
+	found com.amazonaws#aws-java-sdk-bundle;1.11.828 in central
+	found com.github.universal-automata#liblevenshtein;3.0.0 in central
+	found com.google.code.findbugs#annotations;3.0.1 in central
+	found net.jcip#jcip-annotations;1.0 in central
+	found com.google.code.findbugs#jsr305;3.0.1 in central
+	found com.google.protobuf#protobuf-java-util;3.0.0-beta-3 in central
+	found com.google.protobuf#protobuf-java;3.0.0-beta-3 in central
+	found com.google.code.gson#gson;2.3 in central
+	found it.unimi.dsi#fastutil;7.0.12 in central
+	found org.projectlombok#lombok;1.16.8 in central
+	found org.slf4j#slf4j-api;1.7.21 in central
+	found com.navigamez#greex;1.0 in central
+	found dk.brics.automaton#automaton;1.11-8 in central
+	found com.johnsnowlabs.nlp#tensorflow-cpu_2.12;0.4.2 in central
+:: resolution report :: resolve 459ms :: artifacts dl 47ms
+	:: modules in use:
+	com.amazonaws#aws-java-sdk-bundle;1.11.828 from central in [default]
+	com.github.universal-automata#liblevenshtein;3.0.0 from central in [default]
+	com.google.code.findbugs#annotations;3.0.1 from central in [default]
+	com.google.code.findbugs#jsr305;3.0.1 from central in [default]
+	com.google.code.gson#gson;2.3 from central in [default]
+	com.google.protobuf#protobuf-java;3.0.0-beta-3 from central in [default]
+	com.google.protobuf#protobuf-java-util;3.0.0-beta-3 from central in [default]
+	com.johnsnowlabs.nlp#spark-nlp_2.12;4.0.2 from central in [default]
+	com.johnsnowlabs.nlp#tensorflow-cpu_2.12;0.4.2 from central in [default]
+	com.navigamez#greex;1.0 from central in [default]
+	com.typesafe#config;1.4.2 from central in [default]
+	dk.brics.automaton#automaton;1.11-8 from central in [default]
+	it.unimi.dsi#fastutil;7.0.12 from central in [default]
+	net.jcip#jcip-annotations;1.0 from central in [default]
+	org.projectlombok#lombok;1.16.8 from central in [default]
+	org.rocksdb#rocksdbjni;6.29.5 from central in [default]
+	org.slf4j#slf4j-api;1.7.21 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   17  |   0   |   0   |   0   ||   17  |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-9bc5a76e-c682-46a2-99af-60b6b08aedcf
+	confs: [default]
+	0 artifacts copied, 17 already retrieved (0kB/8ms)
+23/04/13 15:58:43 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark&#39;s default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to &quot;WARN&quot;.
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/04/13 15:58:44 WARN Utils: Service &#39;SparkUI&#39; could not bind on port 4040. Attempting port 4041.
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>sent_biobert_pubmed_base_cased download started this may take some time.
+Approximate size to download 386.4 MB
+[ | ]sent_biobert_pubmed_base_cased download started this may take some time.
+Approximate size to download 386.4 MB
+Download done! Loading the resource.
+[ | ]
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2023-04-13 15:59:02.180399: I external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[OK!]
+CPU times: user 45.8 ms, sys: 29.8 ms, total: 75.6 ms
+Wall time: 25.5 s
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h2>Get the sentence embedding (biobert) of GO term definition</h2>
+</div>
+<p>The details are described in the paper <strong><a class="reference external" href="https://arxiv.org/abs/1901.08746">“BioBERT: a pre-trained biomedical language representation model for biomedical text mining”</a></strong>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">predictions_full</span> <span class="o">=</span> <span class="n">pipe</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">Definition</span><span class="p">,</span> <span class="n">output_level</span><span class="o">=</span><span class="s1">&#39;document&#39;</span><span class="p">)</span>
+<span class="n">predictions_full</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>                                                                                
+</pre></div>
+</div>
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>document</th>
+      <th>sentence_embedding_biobert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>The maintenance of the structure and integrity...</td>
+      <td>[-0.1828726977109909, 0.25272125005722046, -0....</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>The production of new individuals that contain...</td>
+      <td>[-0.031625792384147644, 0.027806805446743965, ...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>The repair of single strand breaks in DNA.</td>
+      <td>[-0.05223826691508293, -0.028281446546316147, ...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Repair of such breaks is mediated by the same ...</td>
+      <td>[0.02170223370194435, -0.04093412682414055, -0...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Catalysis of the hydrolysis of ester linkages ...</td>
+      <td>[-0.00821786466985941, -0.23827922344207764, -...</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>5614</th>
+      <td>Any process that activates or increases the fr...</td>
+      <td>[0.053574178367853165, -0.080331951379776, -0....</td>
+    </tr>
+    <tr>
+      <th>5615</th>
+      <td>Any process that activates or increases the fr...</td>
+      <td>[0.015425608493387699, -0.013072511181235313, ...</td>
+    </tr>
+    <tr>
+      <th>5616</th>
+      <td>The chemical reactions and pathways involving ...</td>
+      <td>[0.0855507105588913, -0.05061568692326546, -0....</td>
+    </tr>
+    <tr>
+      <th>5617</th>
+      <td>The chemical reactions and pathways resulting ...</td>
+      <td>[0.11358797550201416, -0.13088946044445038, -0...</td>
+    </tr>
+    <tr>
+      <th>5618</th>
+      <td>The chemical reactions and pathways resulting ...</td>
+      <td>[0.11483287811279297, -0.15022939443588257, -0...</td>
+    </tr>
+  </tbody>
+</table>
+<p>5619 rows × 2 columns</p>
+</div></div></div>
+</div>
+<div class="alert alert-block alert-info">
+    <h2>Save as embeddings as Pickle</h2>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;predictions_full_BP.pickle&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">handle</span><span class="p">:</span>
+    <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">predictions_full</span><span class="p">,</span> <span class="n">handle</span><span class="p">,</span> <span class="n">protocol</span><span class="o">=</span><span class="n">pickle</span><span class="o">.</span><span class="n">HIGHEST_PROTOCOL</span><span class="p">)</span>
+
+<span class="c1"># with open(&#39;predictions_full_bkp.pickle&#39;, &#39;wb&#39;) as handle:</span>
+<span class="c1">#     pickle.dump(predictions_full, handle, protocol=pickle.HIGHEST_PROTOCOL)</span>
+    
+<span class="c1"># !ls *.pickle</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>CPU times: user 26.9 ms, sys: 11.4 ms, total: 38.3 ms
+Wall time: 39 ms
+</pre></div>
+</div>
+</div>
+</div>
+<div class="alert alert-block alert-info">
+    <h2>Save as Pipe</h2>
+</div><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+<span class="n">stored_model_path</span> <span class="o">=</span> <span class="s2">&quot;pipe_full_BP&quot;</span>
+<span class="n">pipe</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">stored_model_path</span><span class="p">,</span> <span class="n">overwrite</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Stored model_anno_obj in pipe_full_BP
+CPU times: user 6.98 ms, sys: 227 µs, total: 7.21 ms
+Wall time: 3.74 s
+</pre></div>
+</div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title"><b>(Optional): </b>Load Saved model!</p>
+<p>with open(‘predictions_full_BP.pickle’, ‘rb’) as handle:
+predictions = pickle.load(handle)
+predictions</p>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "sparknlp"
+        },
+        kernelOptions: {
+            name: "sparknlp",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'sparknlp'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="1_GO.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Preprocessing of Ontology file</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="3_PhenoMiner_plant.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Pathak: Example</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Nilesh Kumar (Ph.D.)
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
